@@ -1,0 +1,11 @@
+# Fichiers générés, non versionnés (vidéos, aperçus, extraits, prises non retenues, contrôles)
+sortie/*.mp4
+sortie/apercus*/
+sortie/extrait_audio_avant_apres.m4a
+work/audio_corrigee_extrait.wav
+work/corrigee/*
+!work/corrigee/jour_retenu.wav
+!work/corrigee/prise_jour_4.wav
+!work/corrigee/choix_prise.json
+!work/corrigee/verif_transcription.txt
+!work/corrigee/verif_synchro.txt
