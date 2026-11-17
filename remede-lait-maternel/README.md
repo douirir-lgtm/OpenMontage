@@ -1,3 +1,5 @@
+> **Pour toute session** : lire `CLAUDE.md` (type de vidéo, règles) puis `STYLE.md` (style) avant de toucher au projet.
+
 # REMEDE — lait maternel (9:16)
 
 Projet de la vidéo TikTok « REMEDE » sur le lait maternel, rendue en 1080×1920 avec Python, Pillow et ffmpeg.
