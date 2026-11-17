@@ -1,0 +1,6 @@
+t=   8.5 s | entendu : « remède. » (8.28–8.80) | surligné : « Remède. » | groupe : 'Remède.' | OK
+t=  81.2 s | entendu : « Chaque » (80.88–81.28) | surligné : « Chaque » | groupe : 'Chaque' | OK
+t=  81.9 s | entendu : « jusqu » (81.84–81.98) | surligné : « jusqu'à » | groupe : "c'est jusqu'à" | OK
+t= 150.0 s | entendu : « entre » (149.58–150.00) | surligné : « entre » | groupe : 'lien biochimique direct entre' | OK
+t= 233.0 s | entendu : « une » (232.74–233.00) | surligné : « greffe » | groupe : 'une greffe' | ÉCART
+t= 233.3 s | entendu : « greffe » (233.00–233.40) | surligné : « greffe » | groupe : 'une greffe' | OK

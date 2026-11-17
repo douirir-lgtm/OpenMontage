@@ -1,0 +1,274 @@
+{
+ "reference": {
+  "f0_hz": 219.7,
+  "duree_s": 0.76
+ },
+ "prises": [
+  {
+   "prise": 1,
+   "fichier": "work/corrigee/prise_jour_1.wav",
+   "transcription": "Chaque jour.",
+   "ok": true,
+   "extrait": "work/corrigee/jour_1.wav",
+   "transcription_extrait": "Chaque jour.",
+   "f0_hz": 159.9,
+   "duree_parole_s": 0.49,
+   "coupe_s": [
+    0.0,
+    1.11
+   ],
+   "score": 6.04
+  },
+  {
+   "prise": 2,
+   "fichier": "work/corrigee/prise_jour_2.wav",
+   "transcription": "Chaque jour, c'est jusqu'à 10 millions de bactéries vivantes pour en penser.",
+   "creux_dB": -41.2,
+   "raison": "coupe « jour | c'est » pas sur un silence (creux > -45 dB)",
+   "ok": false,
+   "extrait": "work/corrigee/jour_2.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 206.8,
+   "duree_parole_s": 0.56,
+   "coupe_s": [
+    0.0,
+    0.57
+   ],
+   "score": 99.0
+  },
+  {
+   "prise": 3,
+   "fichier": "work/corrigee/prise_jour_3.wav",
+   "transcription": "Chaque jour.",
+   "ok": true,
+   "extrait": "work/corrigee/jour_3.wav",
+   "transcription_extrait": "Chaque jour.",
+   "f0_hz": 191.2,
+   "duree_parole_s": 0.53,
+   "coupe_s": [
+    0.0,
+    1.11
+   ],
+   "score": 2.86
+  },
+  {
+   "prise": 4,
+   "fichier": "work/corrigee/prise_jour_4.wav",
+   "transcription": "Chaque jour, c'est jusqu'à 10 millions de bactéries vivantes.",
+   "creux_dB": -57.6,
+   "ok": true,
+   "extrait": "work/corrigee/jour_4.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 214.7,
+   "duree_parole_s": 0.49,
+   "coupe_s": [
+    0.0,
+    0.52
+   ],
+   "score": 0.94
+  },
+  {
+   "prise": 5,
+   "fichier": "work/corrigee/prise_jour_5.wav",
+   "transcription": "Chaque jour.",
+   "ok": true,
+   "extrait": "work/corrigee/jour_5.wav",
+   "transcription_extrait": "Chaque jour.",
+   "f0_hz": 149.2,
+   "duree_parole_s": 0.59,
+   "coupe_s": [
+    0.0,
+    1.15
+   ],
+   "score": 7.04
+  },
+  {
+   "prise": 6,
+   "fichier": "work/corrigee/prise_jour_6.wav",
+   "transcription": "Chaque jour, c'est jusqu'à 10 millions de bactéries vivantes.",
+   "creux_dB": -36.7,
+   "raison": "coupe « jour | c'est » pas sur un silence (creux > -45 dB)",
+   "ok": false,
+   "extrait": "work/corrigee/jour_6.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 268.9,
+   "duree_parole_s": 0.54,
+   "coupe_s": [
+    0.0,
+    0.56
+   ],
+   "score": 99.0
+  },
+  {
+   "prise": 7,
+   "fichier": "work/corrigee/prise_jour_7.wav",
+   "transcription": "Chaque jour,",
+   "ok": true,
+   "extrait": "work/corrigee/jour_7.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 188.2,
+   "duree_parole_s": 0.6,
+   "coupe_s": [
+    0.0,
+    1.21
+   ],
+   "score": 3.0
+  },
+  {
+   "prise": 8,
+   "fichier": "work/corrigee/prise_jour_8.wav",
+   "transcription": "Chaque jour c'est jusqu'à 10 millions de bactéries vivantes.",
+   "creux_dB": -37.7,
+   "raison": "coupe « jour | c'est » pas sur un silence (creux > -45 dB)",
+   "ok": false,
+   "extrait": "work/corrigee/jour_8.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 256.0,
+   "duree_parole_s": 0.45,
+   "coupe_s": [
+    0.0,
+    0.47
+   ],
+   "score": 99.0
+  },
+  {
+   "prise": 9,
+   "fichier": "work/corrigee/prise_jour_9.wav",
+   "transcription": "Chaque jour,",
+   "ok": true,
+   "extrait": "work/corrigee/jour_9.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 196.8,
+   "duree_parole_s": 0.65,
+   "coupe_s": [
+    0.0,
+    1.34
+   ],
+   "score": 2.12
+  },
+  {
+   "prise": 10,
+   "fichier": "work/corrigee/prise_jour_10.wav",
+   "transcription": "Chaque jour c'est jusqu'à 10 millions de bactéries vivantes.",
+   "creux_dB": -32.1,
+   "raison": "coupe « jour | c'est » pas sur un silence (creux > -45 dB)",
+   "ok": false,
+   "extrait": "work/corrigee/jour_10.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 217.2,
+   "duree_parole_s": 0.5,
+   "coupe_s": [
+    0.0,
+    0.52
+   ],
+   "score": 99.0
+  },
+  {
+   "prise": 11,
+   "fichier": "work/corrigee/prise_jour_11.wav",
+   "transcription": "Chaque jour.",
+   "ok": true,
+   "extrait": "work/corrigee/jour_11.wav",
+   "transcription_extrait": "Chaque jour.",
+   "f0_hz": 168.9,
+   "duree_parole_s": 0.62,
+   "coupe_s": [
+    0.0,
+    1.25
+   ],
+   "score": 4.83
+  },
+  {
+   "prise": 12,
+   "fichier": "work/corrigee/prise_jour_12.wav",
+   "transcription": "Chaque jour, c'est jusqu'à 10 millions de bactéries vivantes pensent à des haies.",
+   "creux_dB": -58.7,
+   "ok": true,
+   "extrait": "work/corrigee/jour_12.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 181.6,
+   "duree_parole_s": 0.52,
+   "coupe_s": [
+    0.0,
+    0.59
+   ],
+   "score": 3.78
+  },
+  {
+   "prise": 13,
+   "fichier": "work/corrigee/prise_jour_13.wav",
+   "transcription": "Chaque jour.",
+   "ok": true,
+   "extrait": "work/corrigee/jour_13.wav",
+   "transcription_extrait": "Chaque jour.",
+   "f0_hz": 170.9,
+   "duree_parole_s": 0.59,
+   "coupe_s": [
+    0.0,
+    1.21
+   ],
+   "score": 4.69
+  },
+  {
+   "prise": 14,
+   "fichier": "work/corrigee/prise_jour_14.wav",
+   "transcription": "Chaque jour c'est jusqu'à 10 millions de bactéries.",
+   "creux_dB": -36.0,
+   "raison": "coupe « jour | c'est » pas sur un silence (creux > -45 dB)",
+   "ok": false,
+   "extrait": "work/corrigee/jour_14.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 211.0,
+   "duree_parole_s": 0.52,
+   "coupe_s": [
+    0.0,
+    0.54
+   ],
+   "score": 99.0
+  },
+  {
+   "prise": 15,
+   "fichier": "work/corrigee/prise_jour_15.wav",
+   "transcription": "Chaque jour.",
+   "ok": true,
+   "extrait": "work/corrigee/jour_15.wav",
+   "transcription_extrait": "Chaque jour.",
+   "f0_hz": 202.6,
+   "duree_parole_s": 0.53,
+   "coupe_s": [
+    0.0,
+    1.11
+   ],
+   "score": 1.86
+  },
+  {
+   "prise": 16,
+   "fichier": "work/corrigee/prise_jour_16.wav",
+   "transcription": "Chaque jour, c'est jusqu'à 10 millions de bactéries vivantes.",
+   "creux_dB": -57.8,
+   "ok": true,
+   "extrait": "work/corrigee/jour_16.wav",
+   "transcription_extrait": "Chaque jour,",
+   "f0_hz": 258.2,
+   "duree_parole_s": 0.53,
+   "coupe_s": [
+    0.0,
+    0.58
+   ],
+   "score": 3.26
+  }
+ ],
+ "classement": [
+  4,
+  15,
+  9,
+  3,
+  7,
+  16,
+  12,
+  13,
+  11,
+  1,
+  5
+ ]
+}

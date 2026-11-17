@@ -2,6 +2,11 @@
   python3 scripts/render.py apercus        # une image par écran + contrôles
   python3 scripts/render.py image 12.3 x.png
   python3 scripts/render.py video           # sortie/symbiose-9x16.mp4
+
+Version corrigée : ajouter --corrigee (n'importe où) ->
+  projet/scenes_corrigee.json, work/audio_corrigee.m4a, sortie/apercus_corrigee/, sortie/remede-9x16-corrigee.mp4
+Chaque chemin peut aussi être imposé par variable d'environnement :
+  REMEDE_SCENES, REMEDE_AUDIO, REMEDE_APERCUS, REMEDE_VIDEO (relatifs au dossier du projet ou absolus).
 """
 import json, math, os, random, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -11,7 +16,14 @@ W, H, FPS = 1080, 1920, 30
 SAFE_T, SAFE_B = 150, H - 250
 SUB_Y = 1500                       # centre vertical des sous-titres
 CONTENT_B = 1385                   # bas de la zone de contenu (au-dessus des sous-titres)
-DATA = json.load(open(os.path.join(ROOT, "projet/scenes.json")))
+CORRIGEE = "--corrigee" in sys.argv
+if CORRIGEE:
+    sys.argv.remove("--corrigee")
+_DEF = (dict(SCENES="projet/scenes_corrigee.json", AUDIO="work/audio_corrigee.m4a", APERCUS="sortie/apercus_corrigee",
+             VIDEO="sortie/remede-9x16-corrigee.mp4") if CORRIGEE else
+        dict(SCENES="projet/scenes.json", AUDIO="work/audio_remede.m4a", APERCUS="sortie/apercus", VIDEO="sortie/symbiose-9x16.mp4"))
+PATHS = {k: os.path.join(ROOT, os.environ.get("REMEDE_" + k, v)) for k, v in _DEF.items()}
+DATA = json.load(open(PATHS["SCENES"]))
 SCENES = DATA["scenes"]
 DUR = DATA["meta"]["duree"]
 NFRAMES = math.ceil(DUR * FPS)
@@ -243,7 +255,9 @@ def v_silhouette(scr, E, top, sc, e):
     scr.add(ic_toddler(sw, sh), y0, E["silhouette"]["a"], anim="wt", dur=E["silhouette"]["duree"], name="silhouette", gl=5, gs=0.35)
     scr.add(ic_toddler_flow(sw, sh), y0, E["flux"]["a"], anim="wb", dur=E["flux"]["duree"], chk=False, gl=9, gs=0.9)
     scr.text(E["label_chimere"]["texte"], y0 + 170, E["label_chimere"]["a"], "inter_sb", 33, ORC, 290, cx=198, gl=8)
-    scr.text(E["label_souches"]["texte"], y0 + 330, E["label_souches"]["a"], "inter_sb", 32, ORC, 290, cx=884)
+    yl = scr.text(E["label_souches"]["texte"], y0 + 330, E["label_souches"]["a"], "inter_sb", 32, ORC, 290, cx=884)
+    if "souris" in E:   # version corrigée : précision « observé chez la souris »
+        scr.text(E["souris"]["texte"], yl + 10, E["souris"]["a"], "inter_i", 25, CREME, 300, cx=884)
     yc = y0 + sh + 26
     cw = 455
     ims = []
@@ -310,7 +324,8 @@ def v_helices(scr, E, top, sc, e):
             scr.add(halo(440, 520, strength=0.26), top - 60, el["a"], cx=cx, anim="fade", chk=False, pulse=True)
         scr.add(ic_helix(140, 373, br), top + 6, el["a"], cx=cx, anim="wt", dur=el["duree"], gl=7 if not br else 0, gs=0.5, name=k)
         y = scr.text(el["texte"], top + 398, el["a"] + 0.3, "lora_b", 36, col, 440, cx=cx)
-        scr.text(el["detail"], y + 2, el["a"] + 0.45, "inter", 27, CREME, 440, cx=cx)
+        dsz = 27 if font("inter", 27).getlength(el["detail"]) <= 440 else 25   # détail plus long (version corrigée) : une ligne
+        scr.text(el["detail"], y + 2, el["a"] + 0.45, "inter", dsz, CREME, 440, cx=cx)
     y = top + 498
     scr.add(hline(940, ORS, 2, False), y, E["entete"]["a"], anim="wl", dur=0.8, chk=False)
     y = scr.text(E["entete"]["texte"], y + 24, E["entete"]["a"], "inter_b", 24, OR, 600, x=80, align="l") + 14
@@ -373,7 +388,7 @@ def v_tableau(scr, E, top, sc, e):
         y = top + 104 + i * (rh + 14)
         scr.add(card(940, rh, el.get("fort", False)), y, el["a"], chk=False)
         specs = ((el["texte"], "inter_sb", 31, ORC, 0), (el["preuve"], "inter", 30, CREME, 0.12),
-                 (el["concordance"], "inter_b" if el.get("fort") else "inter_sb", 30, ORC if el.get("fort") else CREME, 0.3))
+                 (el["concordance"], "inter_b" if el.get("fort") else "inter_sb", 30 if len(el["concordance"]) <= 18 else 28, ORC if el.get("fort") else CREME, 0.3))
         for (txt, fk, sz, col, dl), (a, b) in zip(specs, cols):
             im = text_img(txt, fk, sz, col, b - a - 24)
             scr.add(im, y + (rh - im.height) // 2 + 3, el["a"] + dl, cx=(a + b) // 2, name=txt[:20],
@@ -398,7 +413,10 @@ def v_conclusion(scr, E, top, sc, e):
     frame(y + 44)
     f = E["final"]
     scr.add(halo(1060, 520, strength=0.3), y + 20, f["a"], anim="fade", chk=False, pulse=True)
-    scr.text(f["texte"].replace("qu’en 2025", "qu’en\u00a02025"), y + 124, f["a"], "lora_b", 52, OR, 900, accents=f["mots_cles"], accent_color=ORC, dur=0.8)
+    y = scr.text(f["texte"].replace("qu’en 2025", "qu’en\u00a02025").replace("depuis 2007", "depuis\u00a02007"), y + 124, f["a"],
+                 "lora_b", 52, OR, 900, accents=f["mots_cles"], accent_color=ORC, dur=0.8)
+    if "sources" in E:  # version corrigée : mention discrète en fin de vidéo
+        scr.text(E["sources"]["texte"], y + 14, E["sources"]["a"], "inter_m", 28, GRIS, 900, anim="fade", dur=0.6)
 
 
 VIS = {k[2:]: v for k, v in globals().items() if k.startswith("v_")}
@@ -692,7 +710,7 @@ def main():
     if mode == "image":
         render(float(sys.argv[2])).save(sys.argv[3])
     elif mode == "apercus":
-        out = os.path.join(ROOT, "sortie/apercus")
+        out = PATHS["APERCUS"]
         os.makedirs(out, exist_ok=True)
         for f in os.listdir(out):
             os.remove(os.path.join(out, f))
@@ -710,10 +728,10 @@ def main():
     elif mode == "video":
         from multiprocessing import Pool
         a, b = (int(sys.argv[2]), int(sys.argv[3])) if len(sys.argv) > 3 else (0, NFRAMES)
-        outp = sys.argv[4] if len(sys.argv) > 4 else os.path.join(ROOT, "sortie/symbiose-9x16.mp4")
+        outp = sys.argv[4] if len(sys.argv) > 4 else PATHS["VIDEO"]
         cmd = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
         if (a, b) == (0, NFRAMES):
-            cmd += ["-i", os.path.join(ROOT, "work/audio_remede.m4a"), "-map", "0:v", "-map", "1:a", "-c:a", "copy"]
+            cmd += ["-i", PATHS["AUDIO"], "-map", "0:v", "-map", "1:a", "-c:a", "copy"]
         cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-movflags", "+faststart", outp]
         ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
         with Pool(4) as pool:

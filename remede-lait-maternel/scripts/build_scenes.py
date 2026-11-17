@@ -1,6 +1,22 @@
 """Construit projet/scenes.json : une scène par diapo de la source, calée sur l'audio.
-Textes recopiés tels quels depuis les diapos ; temps issus de faster-whisper (word_timestamps)."""
-import json, os, re, unicodedata
+Textes recopiés tels quels depuis les diapos ; temps issus de faster-whisper (word_timestamps).
+
+  python3 scripts/build_scenes.py              # 1re version  -> projet/scenes.json
+  python3 scripts/build_scenes.py --corrigee   # version corrigée (sortie/verification_scientifique.md)
+                                               #   -> projet/scenes_corrigee.json (audio : work/audio_corrigee.m4a)
+"""
+import argparse, json, os, re, unicodedata
+
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--corrigee", action="store_true", help="applique les corrections scientifiques (voir sortie/corrections_appliquees.md)")
+_ap.add_argument("--sortie", default=None, help="fichier JSON produit (défaut : projet/scenes.json ou projet/scenes_corrigee.json)")
+ARGS = _ap.parse_args()
+C = ARGS.corrigee
+
+
+def V(avant, apres):
+    """Texte de la 1re version, ou texte corrigé avec --corrigee."""
+    return apres if C else avant
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 T = json.load(open(os.path.join(ROOT, "projet/transcription.json")))
@@ -37,6 +53,9 @@ def fix(old, new, near, note):
             return
     raise SystemExit(f"correction introuvable: {old!r} @ {near}")
 
+# Temps des mots « Chaque jour, » dans work/audio_corrigee.m4a (faster-whisper, voir montage_audio.py --corrigee)
+JOUR = (("Chaque", 81.10, 81.28), ("jour,", 81.28, 81.56))
+
 # Nouvelle phrase de la voix clonée (scripts/montage_audio.py) : « C'est la thèse de Remède. »
 # Temps mesurés par faster-whisper sur work/audio_remede.m4a.
 _i = [k for k, w in enumerate(words) if 7.0 <= w["d"] < 9.6]
@@ -44,11 +63,20 @@ words[_i[0]:_i[-1] + 1] = [{"m": m, "d": d, "f": f} for m, d, f in
                            (("C'est", 7.52, 7.64), ("la", 7.64, 7.72), ("thèse", 7.72, 8.16), ("de", 8.16, 8.28), ("Remède.", 8.28, 8.80))]
 CORR.append({"t": 7.5, "entendu_par_whisper": "C'est la thèse de Symbiose Sciences et Suna.", "affiche": "C'est la thèse de Remède.",
              "raison": "phrase remplacée dans l'audio par la voix clonée (nom du profil TikTok)"})
+if C:
+    # Voix corrigée (scripts/montage_audio.py --corrigee) : « Une seule tétée, » -> « Chaque jour, » (≈ 80,4–81,6 s).
+    # Temps mesurés par faster-whisper sur work/audio_corrigee.m4a (voir sortie/corrections_appliquees.md).
+    _i = [k for k, w in enumerate(words) if 80.3 <= w["d"] < 81.5]
+    assert [words[k]["m"] for k in _i] == ["Une", "seule", "tété,"], [words[k]["m"] for k in _i]
+    words[_i[0]:_i[-1] + 1] = [{"m": m, "d": d, "f": f} for m, d, f in JOUR]
+    CORR.append({"t": 80.4, "entendu_par_whisper": "Une seule tété,", "affiche": "Chaque jour,",
+                 "raison": "mots remplacés dans l'audio par la voix clonée (10⁵–10⁷ bactéries : par jour, pas par tétée)"})
 fix("1400", "1_400", 2.5, "espace des milliers")
 fix("qu'endroit islamique.", "En_droit islamique,", 56.6, "« qu'endroit » n'a pas de sens ; « En droit islamique » très probable")
 fix("Si une", "si une", 57.5, "suite de la phrase précédente")
 fix("tétés", "tétées", 68.0, "orthographe (diapo : « 5 tétées »)")
-fix("tété,", "tétée,", 81.0, "orthographe")
+if not C:
+    fix("tété,", "tétée,", 81.0, "orthographe")
 fix("Des cellules souches. Les", "Des cellules souches ? Les", 87.0, "écho interrogatif d'une 2e voix (probable)")
 fix("Des textes. Un classique,", "Des textes classiques, _", 116.5, "« Un » a une probabilité de 0,05 : « Des textes classiques » très probable")
 fix("conseillait", "conseillaient", 119.0, "accord avec « Des textes classiques »")
@@ -145,10 +173,12 @@ S.append(dict(titre="La Parenté par Substance : Une Chimère Biologique", mots_
     ]),
     dict(visuel="silhouette", debut=t5 - 0.2, elements=[
         E("silhouette", None, t5, duree=2.2),
-        E("stat_tetee", "Chaque tétée : 10⁵ à 10⁷ bactéries viables + 386 microARN.", at("Une seule tétée"), mots_cles=["10⁵ à 10⁷", "386 microARN."]),
+        E("stat_tetee", V("Chaque tétée : 10⁵ à 10⁷ bactéries viables + 386 microARN.", "Chaque jour : 10⁵ à 10⁷ bactéries + des centaines de microARN."),
+          at(V("Une seule tétée", "Chaque jour"), 79), mots_cles=["10⁵ à 10⁷", V("386 microARN.", "des centaines de microARN.")]),
         E("stat_souches", "44,3% des souches de Bifidobacterium longum proviennent de la mère (Cell Host & Microbe, 2024).", at("bactéries vivantes"), mots_cles=["44,3%"], italiques=["Bifidobacterium longum"]),
         E("flux", None, at("Les cellules souches de la mère"), duree=5.0),
         E("label_souches", "Cellules souches & ADN maternels", at("Les cellules souches de la mère")),
+        *([E("souris", "(observé chez la souris)", at("Les cellules souches de la mère") + 0.3)] if C else []),
         E("label_chimere", "Microchimérisme", at("il crée une véritable")),
         E("halo", None, at("chimère biologique", 100)),
     ]),
@@ -167,13 +197,13 @@ S.append(dict(titre=None, pastille=None, ecrans=[dict(visuel="citations", elemen
 # 8 — emblème
 S.append(dict(titre=None, pastille=None, ecrans=[dict(visuel="embleme", elements=[E("embleme", None, 129.3)])]))
 # 9 — influence
-S.append(dict(titre="L’Influence : Transmission du Tempérament", mots_cles=["Tempérament"], pastille="Nature Scientific Reports, 2025", ecrans=[dict(visuel="chaine", elements=[
+S.append(dict(titre="L’Influence : Transmission du Tempérament", mots_cles=["Tempérament"], pastille=V("Nature Scientific Reports, 2025", "Scientific Reports, 2025"), ecrans=[dict(visuel="chaine", elements=[
     E("goutte", "Cortisol Lacté", at("produit du lait riche"), detail="(Hormone de Stress)"),
     E("fleche1", "Passage Barrière Intestinale", at("Ce cortisol passe")),
-    E("cerveau", "Reprogrammation Épigénétique", at("il pourrait influencer")),
+    E("cerveau", V("Reprogrammation Épigénétique", "Effet sur l’humeur (hypothèse)"), at("il pourrait influencer")),
     E("fleche2", None, at("et donc potentiellement")),
     E("emotions", "Régulation des Émotions", at("et donc potentiellement") + 0.3),
-    E("axe", "L’Axe Cortisol-Tempérament (Nature Scientific Reports, 2025)", at("l'expression de ces gènes"), mots_cles=["L’Axe Cortisol-Tempérament"]),
+    E("axe", V("L’Axe Cortisol-Tempérament (Nature Scientific Reports, 2025)", "L’Axe Cortisol-Tempérament (Scientific Reports, 2025)"), at("l'expression de ces gènes"), mots_cles=["L’Axe Cortisol-Tempérament"]),
     E("correlation", "Corrélation : Cortisol élevé = Nourrisson craintif et émotions négatives.", at("un tempérament plus anxieux"), mots_cles=["Corrélation :"]),
     E("conclusion", "La ‘moralité’ de la nourrice est un profil hormonal et microbien transmissible.", at("On aurait donc"), mots_cles=["profil hormonal et microbien"]),
 ])]))
@@ -190,9 +220,12 @@ S.append(dict(titre="Spécificité Individuelle : L’Empreinte Digitale du Lait
         E("helice_a", "Lait Maternel Unique", t11, detail="(Signature Cohérente)", duree=1.6),
         E("entete", "THE SCIENCE", at("Il a sa propre")),
         E("microbien", "Fingerprint Microbien : Chaque mère possède un microbiome unique.", at("Il a sa propre"), mots_cles=["Fingerprint Microbien :"]),
-        E("moleculaire", "Fingerprint Moléculaire : Signature unique de 386 microARN.", at("son profil unique"), mots_cles=["Fingerprint Moléculaire :"]),
-        E("helice_b", "Mélange de Laits", at("Mélanger des laits"), detail="(Confusion Biologique)", duree=1.6),
-        E("risque", "Risque : Compétition conflictuelle entre souches bactériennes étrangères.", at("et à créer une sorte"), mots_cles=["Risque :"]),
+        E("moleculaire", V("Fingerprint Moléculaire : Signature unique de 386 microARN.",
+                             "Fingerprint Moléculaire : profil de microARN propre à chaque lait (non démontré)."), at("son profil unique"), mots_cles=["Fingerprint Moléculaire :"]),
+        E("helice_b", "Mélange de Laits", at("Mélanger des laits"), detail=V("(Confusion Biologique)", "(Hypothèse : Confusion Biologique)"), duree=1.6),
+        E("risque", V("Risque : Compétition conflictuelle entre souches bactériennes étrangères.",
+                      "Hypothèse : Compétition conflictuelle entre souches bactériennes étrangères."),
+          at("et à créer une sorte"), mots_cles=[V("Risque :", "Hypothèse :")]),
     ]),
 ]))
 # 12 — pureté
@@ -225,10 +258,10 @@ S.append(dict(titre="Synthèse de Concordance", mots_cles=["Concordance"], pasti
     E("col1", "Énoncé Juridique", at("D'un côté")),
     E("col2", "Preuve Biologique (2024-2025)", at("De l'autre")),
     E("col3", "Concordance", at("De l'autre") + 0.6),
-    E("l1", "Durée 2 ans", at("Pour la durée"), preuve="Fenêtre épigénétique 0-24 mois", concordance="100% Exacte", fort=True),
-    E("l2", "Parenté (5 tétées)", at("Pour la parenté"), preuve="Chimérisme cellulaire & génétique", concordance="Substantielle"),
-    E("l3", "Influence Caractère", at("Pour le choix"), preuve="Axe Cortisol-Humeur", concordance="Confirmée"),
-    E("l4", "Interdiction Mélange", at("la transmission d'hormones"), preuve="Signature biologique unique", concordance="Confirmée"),
+    E("l1", "Durée 2 ans", at("Pour la durée"), preuve="Fenêtre épigénétique 0-24 mois", concordance=V("100% Exacte", "Concordante"), fort=True),
+    E("l2", "Parenté (5 tétées)", at("Pour la parenté"), preuve="Chimérisme cellulaire & génétique", concordance=V("Substantielle", "Observée chez l’animal")),
+    E("l3", "Influence Caractère", at("Pour le choix"), preuve="Axe Cortisol-Humeur", concordance=V("Confirmée", "Corrélation observée")),
+    E("l4", "Interdiction Mélange", at("la transmission d'hormones"), preuve="Signature biologique unique", concordance=V("Confirmée", "Hypothèse (non\u00a0démontrée)")),
     E("l5", "Pureté", at("la transmission d'hormones") + 0.5, preuve="Système de défense triple", concordance="Confirmée"),
     E("pied", "La concordance entre la tradition prophétique et les découvertes scientifiques modernes confirme une sagesse intemporelle et une précision biologique.", at("c'est le résumé")),
 ])]))
@@ -239,7 +272,10 @@ S.append(dict(titre="Conclusion : Une Greffe Thérapeutique", mots_cles=["Greffe
     E("g1", "Greffe Microbiologique (Bactéries)", at("Une greffe de microbes")),
     E("g2", "Greffe Cellulaire (Cellules Souches)", at("une greffe de cellules")),
     E("g3", "Programmation Épigénétique (MicroARN)", at("et une transplantation")),
-    E("final", "La jurisprudence islamique a légiféré sur des réalités biologiques que la science n’a quantifiées qu’en 2025.", at("et une transplantation") + 0.7, mots_cles=["qu’en 2025."]),
+    E("final", V("La jurisprudence islamique a légiféré sur des réalités biologiques que la science n’a quantifiées qu’en 2025.",
+                 "La jurisprudence islamique a légiféré sur des réalités biologiques que la science quantifie depuis 2007."),
+      at("et une transplantation") + 0.7, mots_cles=[V("qu’en 2025.", "depuis 2007.")]),
+    *([E("sources", "Sources : voir description", DUREE - 2.0)] if C else []),
 ])]))
 
 scenes = []
@@ -260,7 +296,12 @@ for i, sc in enumerate(S):
 out = dict(meta=dict(source="entree/source_remede.prophetique_laitmaternel.mp4", duree=DUREE, fps=30, largeur=1080, hauteur=1920,
                      transcription="faster-whisper large-v3, fr, word_timestamps", corrections_sous_titres=CORR),
            scenes=scenes)
-json.dump(out, open(os.path.join(ROOT, "projet/scenes.json"), "w"), ensure_ascii=False, indent=1)
+if C:
+    out["meta"]["version"] = "corrigee"
+    out["meta"]["audio"] = "work/audio_corrigee.m4a"
+SORTIE = ARGS.sortie or os.path.join(ROOT, "projet/scenes_corrigee.json" if C else "projet/scenes.json")
+json.dump(out, open(SORTIE, "w"), ensure_ascii=False, indent=1)
+print("->", os.path.relpath(SORTIE, ROOT))
 print(len(scenes), "scènes,", sum(len(s["ecrans"]) for s in scenes), "écrans,", len(words), "mots")
 for s in scenes:
     for e in s["ecrans"]:
