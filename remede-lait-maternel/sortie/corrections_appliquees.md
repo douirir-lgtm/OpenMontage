@@ -69,7 +69,12 @@ passe en 25 px pour tenir sur une ligne, et les cases « Concordance » de plus 
   (Un premier essai à 233,0 s tombait pile sur la frontière « une » | « greffe », toutes deux à 233,00 s : pas d'écart réel.)
 
 ## Rendu
-RENDU_A_COMPLETER
+`python3 scripts/render.py video --corrigee` → `sortie/remede-9x16-corrigee.mp4` : H.264 1080×1920, 30 i/s, 7104 images,
+236,80 s ; audio AAC 236,797 s (même durée que l'audio, à une image près), 33 Mo. La piste audio de la vidéo est identique
+octet pour octet à `work/audio_corrigee.m4a`. Transcription du passage 79–85 s **extraite de la vidéo** : « … lien de parenté à vie.
+Chaque jour, c'est jusqu'à 10 millions de bactéries vivantes qui sont transmises. » Images de la vidéo vérifiées à 81,3 s
+(carte « Chaque jour… », sous-titre « Chaque jour, »), 88,5 s (« observé chez la souris »), 228 s (tableau) et 236 s
+(« depuis 2007 », « Sources : voir description »).
 
 ## Doutes et points à décider
 1. **Voix clonée** : timbre proche mais pas identique (comme pour « Remède »). « Chaque jour, » dure 0,49 s contre 0,76 s pour
