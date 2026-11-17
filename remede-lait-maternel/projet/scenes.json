@@ -1,0 +1,4814 @@
+{
+ "meta": {
+  "source": "entree/source_remede.prophetique_laitmaternel.mp4",
+  "duree": 236.774,
+  "fps": 30,
+  "largeur": 1080,
+  "hauteur": 1920,
+  "transcription": "faster-whisper large-v3, fr, word_timestamps",
+  "corrections_sous_titres": [
+   {
+    "t": 7.5,
+    "entendu_par_whisper": "C'est la thèse de Symbiose Sciences et Suna.",
+    "affiche": "C'est la thèse de Remède.",
+    "raison": "phrase remplacée dans l'audio par la voix clonée (nom du profil TikTok)"
+   },
+   {
+    "t": 2.5,
+    "entendu_par_whisper": "1400",
+    "affiche": "1_400",
+    "raison": "espace des milliers"
+   },
+   {
+    "t": 56.6,
+    "entendu_par_whisper": "qu'endroit islamique.",
+    "affiche": "En_droit islamique,",
+    "raison": "« qu'endroit » n'a pas de sens ; « En droit islamique » très probable"
+   },
+   {
+    "t": 57.5,
+    "entendu_par_whisper": "Si une",
+    "affiche": "si une",
+    "raison": "suite de la phrase précédente"
+   },
+   {
+    "t": 68.0,
+    "entendu_par_whisper": "tétés",
+    "affiche": "tétées",
+    "raison": "orthographe (diapo : « 5 tétées »)"
+   },
+   {
+    "t": 81.0,
+    "entendu_par_whisper": "tété,",
+    "affiche": "tétée,",
+    "raison": "orthographe"
+   },
+   {
+    "t": 87.0,
+    "entendu_par_whisper": "Des cellules souches. Les",
+    "affiche": "Des cellules souches ? Les",
+    "raison": "écho interrogatif d'une 2e voix (probable)"
+   },
+   {
+    "t": 116.5,
+    "entendu_par_whisper": "Des textes. Un classique,",
+    "affiche": "Des textes classiques, _",
+    "raison": "« Un » a une probabilité de 0,05 : « Des textes classiques » très probable"
+   },
+   {
+    "t": 119.0,
+    "entendu_par_whisper": "conseillait",
+    "affiche": "conseillaient",
+    "raison": "accord avec « Des textes classiques »"
+   },
+   {
+    "t": 163.8,
+    "entendu_par_whisper": "brûlerait",
+    "affiche": "brouillerait",
+    "raison": "« brouiller les pistes »"
+   },
+   {
+    "t": 179.0,
+    "entendu_par_whisper": "micro-RN,",
+    "affiche": "micro-ARN,",
+    "raison": "diapo : « microARN »"
+   },
+   {
+    "t": 206.6,
+    "entendu_par_whisper": "On sait synthétiser. On sait synthétiser",
+    "affiche": "On sait synthétiser _ _ _",
+    "raison": "répétition hallucinée par Whisper (durée nulle, probabilité 0,01)"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "diapo": 1,
+   "debut": 0.0,
+   "fin": 10.0,
+   "titre": "REMEDE",
+   "mots_cles": [
+    "REMEDE"
+   ],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "titre",
+     "debut": 0.0,
+     "fin": 10.0,
+     "elements": [
+      {
+       "id": "embleme",
+       "texte": null,
+       "a": 0.15
+      },
+      {
+       "id": "titre",
+       "texte": "REMEDE",
+       "a": 1.3
+      },
+      {
+       "id": "accent_titre",
+       "texte": null,
+       "a": 8.28
+      },
+      {
+       "id": "sous_titre",
+       "texte": "Le Lait Maternel – Entre Révélation Textuelle et Preuve Biologique",
+       "a": 2.4
+      },
+      {
+       "id": "edition",
+       "texte": "ÉDITION 2026 – ANALYSE DE CONCORDANCE",
+       "a": 8.88
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "Et",
+     "d": 0.0,
+     "f": 0.28
+    },
+    {
+     "m": "si",
+     "d": 0.28,
+     "f": 0.36
+    },
+    {
+     "m": "des",
+     "d": 0.36,
+     "f": 0.56
+    },
+    {
+     "m": "textes",
+     "d": 0.56,
+     "f": 0.88
+    },
+    {
+     "m": "écrits",
+     "d": 0.88,
+     "f": 1.16
+    },
+    {
+     "m": "il",
+     "d": 1.16,
+     "f": 1.28
+    },
+    {
+     "m": "y",
+     "d": 1.28,
+     "f": 1.36
+    },
+    {
+     "m": "a",
+     "d": 1.36,
+     "f": 1.42
+    },
+    {
+     "m": "plus",
+     "d": 1.42,
+     "f": 1.5
+    },
+    {
+     "m": "de",
+     "d": 1.5,
+     "f": 1.64
+    },
+    {
+     "m": "1 400",
+     "d": 1.64,
+     "f": 2.02
+    },
+    {
+     "m": "ans",
+     "d": 2.02,
+     "f": 2.4
+    },
+    {
+     "m": "contenaient",
+     "d": 2.4,
+     "f": 3.08
+    },
+    {
+     "m": "déjà",
+     "d": 3.08,
+     "f": 3.3
+    },
+    {
+     "m": "des",
+     "d": 3.3,
+     "f": 3.48
+    },
+    {
+     "m": "indices",
+     "d": 3.48,
+     "f": 3.74
+    },
+    {
+     "m": "sur",
+     "d": 3.74,
+     "f": 4.14
+    },
+    {
+     "m": "des",
+     "d": 4.14,
+     "f": 4.26
+    },
+    {
+     "m": "découvertes",
+     "d": 4.26,
+     "f": 4.78
+    },
+    {
+     "m": "en",
+     "d": 4.78,
+     "f": 4.84
+    },
+    {
+     "m": "biologie",
+     "d": 4.84,
+     "f": 5.24
+    },
+    {
+     "m": "cellulaire",
+     "d": 5.24,
+     "f": 5.78
+    },
+    {
+     "m": "que",
+     "d": 5.78,
+     "f": 5.92
+    },
+    {
+     "m": "l'on",
+     "d": 5.92,
+     "f": 6.06
+    },
+    {
+     "m": "fait",
+     "d": 6.06,
+     "f": 6.18
+    },
+    {
+     "m": "à",
+     "d": 6.18,
+     "f": 6.32
+    },
+    {
+     "m": "peine",
+     "d": 6.32,
+     "f": 6.54
+    },
+    {
+     "m": "aujourd'hui ?",
+     "d": 6.54,
+     "f": 7.08
+    },
+    {
+     "m": "C'est",
+     "d": 7.52,
+     "f": 7.64
+    },
+    {
+     "m": "la",
+     "d": 7.64,
+     "f": 7.72
+    },
+    {
+     "m": "thèse",
+     "d": 7.72,
+     "f": 8.16
+    },
+    {
+     "m": "de",
+     "d": 8.16,
+     "f": 8.28
+    },
+    {
+     "m": "Remède.",
+     "d": 8.28,
+     "f": 8.8
+    },
+    {
+     "m": "La",
+     "d": 9.62,
+     "f": 9.96
+    },
+    {
+     "m": "loi",
+     "d": 9.96,
+     "f": 10.16
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "diapo": 2,
+   "debut": 10.0,
+   "fin": 24.7,
+   "titre": null,
+   "mots_cles": [],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "venn",
+     "debut": 10.0,
+     "fin": 20.47,
+     "elements": [
+      {
+       "id": "cercle_a",
+       "texte": "L’ORDRE RÉVÉLÉ",
+       "a": 10.05
+      },
+      {
+       "id": "a1",
+       "texte": "Coran & Sunnah",
+       "a": 10.64
+      },
+      {
+       "id": "a2",
+       "texte": "Jurisprudence Classique",
+       "a": 10.99
+      },
+      {
+       "id": "a3",
+       "texte": "Sagesse Législative",
+       "a": 11.34
+      },
+      {
+       "id": "cercle_b",
+       "texte": "L’ORDRE NATUREL",
+       "a": 11.6
+      },
+      {
+       "id": "b1",
+       "texte": "Données Biomoléculaires",
+       "a": 12.86
+      },
+      {
+       "id": "b2",
+       "texte": "Métagénomique (2024-2025)",
+       "a": 13.21
+      },
+      {
+       "id": "b3",
+       "texte": "Cell Host & Microbe / Nature",
+       "a": 13.56
+      },
+      {
+       "id": "icone",
+       "texte": null,
+       "a": 17.78
+      },
+      {
+       "id": "lentille",
+       "texte": null,
+       "a": 19.32
+      }
+     ]
+    },
+    {
+     "visuel": "citation_seule",
+     "debut": 20.47,
+     "fin": 24.7,
+     "elements": [
+      {
+       "id": "citation",
+       "texte": "« Il n’y a pas de contradiction entre la parole d’Allah et Sa création. »",
+       "a": 20.72,
+       "mots_cles": [
+        "parole d’Allah",
+        "Sa création"
+       ]
+      },
+      {
+       "id": "filet",
+       "texte": null,
+       "a": 22.06
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "révélée,",
+     "d": 10.16,
+     "f": 10.62
+    },
+    {
+     "m": "celle",
+     "d": 10.64,
+     "f": 11.0
+    },
+    {
+     "m": "des",
+     "d": 11.0,
+     "f": 11.14
+    },
+    {
+     "m": "textes,",
+     "d": 11.14,
+     "f": 11.6
+    },
+    {
+     "m": "et",
+     "d": 11.6,
+     "f": 12.02
+    },
+    {
+     "m": "la",
+     "d": 12.02,
+     "f": 12.08
+    },
+    {
+     "m": "loi",
+     "d": 12.08,
+     "f": 12.24
+    },
+    {
+     "m": "naturelle,",
+     "d": 12.24,
+     "f": 12.84
+    },
+    {
+     "m": "celle",
+     "d": 12.86,
+     "f": 13.18
+    },
+    {
+     "m": "que",
+     "d": 13.18,
+     "f": 13.32
+    },
+    {
+     "m": "découvre",
+     "d": 13.32,
+     "f": 13.66
+    },
+    {
+     "m": "la",
+     "d": 13.66,
+     "f": 13.78
+    },
+    {
+     "m": "science,",
+     "d": 13.78,
+     "f": 14.04
+    },
+    {
+     "m": "ne",
+     "d": 14.32,
+     "f": 14.7
+    },
+    {
+     "m": "seraient",
+     "d": 14.7,
+     "f": 15.04
+    },
+    {
+     "m": "pas",
+     "d": 15.04,
+     "f": 15.14
+    },
+    {
+     "m": "en",
+     "d": 15.14,
+     "f": 15.4
+    },
+    {
+     "m": "conflit.",
+     "d": 15.4,
+     "f": 15.8
+    },
+    {
+     "m": "Au",
+     "d": 15.9,
+     "f": 16.34
+    },
+    {
+     "m": "contraire,",
+     "d": 16.34,
+     "f": 16.8
+    },
+    {
+     "m": "ce",
+     "d": 16.84,
+     "f": 17.4
+    },
+    {
+     "m": "seraient",
+     "d": 17.4,
+     "f": 17.66
+    },
+    {
+     "m": "comme",
+     "d": 17.66,
+     "f": 17.78
+    },
+    {
+     "m": "deux",
+     "d": 17.78,
+     "f": 18.02
+    },
+    {
+     "m": "langages",
+     "d": 18.02,
+     "f": 18.36
+    },
+    {
+     "m": "différents",
+     "d": 18.36,
+     "f": 18.68
+    },
+    {
+     "m": "qui",
+     "d": 18.68,
+     "f": 18.96
+    },
+    {
+     "m": "décrivent",
+     "d": 18.96,
+     "f": 19.32
+    },
+    {
+     "m": "une",
+     "d": 19.32,
+     "f": 19.58
+    },
+    {
+     "m": "seule",
+     "d": 19.58,
+     "f": 19.82
+    },
+    {
+     "m": "et",
+     "d": 19.82,
+     "f": 19.94
+    },
+    {
+     "m": "même",
+     "d": 19.94,
+     "f": 20.04
+    },
+    {
+     "m": "réalité.",
+     "d": 20.04,
+     "f": 20.38
+    },
+    {
+     "m": "Gardons",
+     "d": 20.62,
+     "f": 21.04
+    },
+    {
+     "m": "bien",
+     "d": 21.04,
+     "f": 21.2
+    },
+    {
+     "m": "cette",
+     "d": 21.2,
+     "f": 21.38
+    },
+    {
+     "m": "idée",
+     "d": 21.38,
+     "f": 21.58
+    },
+    {
+     "m": "en",
+     "d": 21.58,
+     "f": 21.7
+    },
+    {
+     "m": "tête,",
+     "d": 21.7,
+     "f": 21.88
+    },
+    {
+     "m": "c'est",
+     "d": 22.06,
+     "f": 22.5
+    },
+    {
+     "m": "la",
+     "d": 22.5,
+     "f": 22.56
+    },
+    {
+     "m": "grille",
+     "d": 22.56,
+     "f": 22.8
+    },
+    {
+     "m": "de",
+     "d": 22.8,
+     "f": 22.98
+    },
+    {
+     "m": "lecture",
+     "d": 22.98,
+     "f": 23.22
+    },
+    {
+     "m": "pour",
+     "d": 23.22,
+     "f": 23.58
+    },
+    {
+     "m": "tout",
+     "d": 23.58,
+     "f": 23.74
+    },
+    {
+     "m": "ce",
+     "d": 23.74,
+     "f": 23.84
+    },
+    {
+     "m": "qui",
+     "d": 23.84,
+     "f": 23.9
+    },
+    {
+     "m": "va",
+     "d": 23.9,
+     "f": 24.0
+    },
+    {
+     "m": "suivre.",
+     "d": 24.0,
+     "f": 24.24
+    },
+    {
+     "m": "Tout",
+     "d": 24.5,
+     "f": 24.72
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "diapo": 3,
+   "debut": 24.7,
+   "fin": 51.6,
+   "titre": "La Chronologie : 24 Mois pour Construire l'Homme",
+   "mots_cles": [
+    "24 Mois"
+   ],
+   "pastille": "Sourate Al-Baqarah 2:233",
+   "ecrans": [
+    {
+     "visuel": "verset",
+     "debut": 24.7,
+     "fin": 32.64,
+     "elements": [
+      {
+       "id": "citation",
+       "texte": "« Les mères allaiteront leurs enfants deux années complètes... »",
+       "a": 26.14,
+       "mots_cles": [
+        "deux années complètes"
+       ]
+      },
+      {
+       "id": "reference",
+       "texte": "(Sourate Al-Baqarah 2:233)",
+       "a": 27.94
+      },
+      {
+       "id": "note",
+       "texte": "Interprétation : Période critique de mue vers l’autonomie immunitaire.",
+       "a": 28.82,
+       "mots_cles": [
+        "Interprétation :"
+       ]
+      }
+     ]
+    },
+    {
+     "visuel": "frise",
+     "debut": 32.64,
+     "fin": 51.6,
+     "elements": [
+      {
+       "id": "axe_or",
+       "texte": null,
+       "a": 32.84,
+       "duree": 2.6
+      },
+      {
+       "id": "p0",
+       "texte": "0",
+       "a": 32.84
+      },
+      {
+       "id": "seg1",
+       "texte": "0-6",
+       "a": 33.34,
+       "titre": "Phase d'établissement",
+       "detail": "(Introduction souches maternelles)"
+      },
+      {
+       "id": "seg2",
+       "texte": "6-24",
+       "a": 35.04,
+       "titre": "Diversification & Myélinisation",
+       "detail": "(Pic de développement cortical)"
+      },
+      {
+       "id": "marque24",
+       "texte": "24",
+       "a": 38.74,
+       "titre": "Clôture de la fenêtre épigénétique"
+      },
+      {
+       "id": "axe_gris",
+       "texte": null,
+       "a": 41.44,
+       "duree": 1.6
+      },
+      {
+       "id": "seg3",
+       "texte": "24-36",
+       "a": 41.74,
+       "titre": "Structure adulte acquise"
+      },
+      {
+       "id": "p36",
+       "texte": "36 Mois",
+       "a": 47.04
+      },
+      {
+       "id": "encadre",
+       "texte": "La durée coranique correspond exactement à la ‘window of opportunity’ immunitaire et neurologique.",
+       "a": 48.52,
+       "mots_cles": [
+        "‘window of opportunity’"
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "part",
+     "d": 24.72,
+     "f": 24.92
+    },
+    {
+     "m": "de",
+     "d": 24.92,
+     "f": 25.08
+    },
+    {
+     "m": "ce",
+     "d": 25.08,
+     "f": 25.2
+    },
+    {
+     "m": "verset",
+     "d": 25.2,
+     "f": 25.58
+    },
+    {
+     "m": "du",
+     "d": 25.58,
+     "f": 25.66
+    },
+    {
+     "m": "Coran.",
+     "d": 25.66,
+     "f": 26.0
+    },
+    {
+     "m": "Il",
+     "d": 26.14,
+     "f": 26.58
+    },
+    {
+     "m": "recommande",
+     "d": 26.58,
+     "f": 27.1
+    },
+    {
+     "m": "une",
+     "d": 27.1,
+     "f": 27.22
+    },
+    {
+     "m": "durée",
+     "d": 27.22,
+     "f": 27.46
+    },
+    {
+     "m": "d'allaitement",
+     "d": 27.46,
+     "f": 27.8
+    },
+    {
+     "m": "de",
+     "d": 27.8,
+     "f": 27.94
+    },
+    {
+     "m": "deux",
+     "d": 27.94,
+     "f": 28.18
+    },
+    {
+     "m": "années",
+     "d": 28.18,
+     "f": 28.42
+    },
+    {
+     "m": "complètes.",
+     "d": 28.42,
+     "f": 28.82
+    },
+    {
+     "m": "Il",
+     "d": 28.82,
+     "f": 29.28
+    },
+    {
+     "m": "correspond",
+     "d": 29.28,
+     "f": 29.54
+    },
+    {
+     "m": "à",
+     "d": 29.54,
+     "f": 29.88
+    },
+    {
+     "m": "une",
+     "d": 29.88,
+     "f": 29.98
+    },
+    {
+     "m": "fenêtre",
+     "d": 29.98,
+     "f": 30.3
+    },
+    {
+     "m": "de",
+     "d": 30.3,
+     "f": 30.46
+    },
+    {
+     "m": "développement",
+     "d": 30.46,
+     "f": 30.72
+    },
+    {
+     "m": "absolument",
+     "d": 30.72,
+     "f": 31.38
+    },
+    {
+     "m": "critique",
+     "d": 31.38,
+     "f": 31.82
+    },
+    {
+     "m": "pour",
+     "d": 31.82,
+     "f": 32.14
+    },
+    {
+     "m": "l'enfant.",
+     "d": 32.14,
+     "f": 32.58
+    },
+    {
+     "m": "Jusqu'à",
+     "d": 32.84,
+     "f": 33.4
+    },
+    {
+     "m": "24",
+     "d": 33.4,
+     "f": 33.58
+    },
+    {
+     "m": "mois,",
+     "d": 33.58,
+     "f": 33.94
+    },
+    {
+     "m": "on",
+     "d": 34.02,
+     "f": 34.18
+    },
+    {
+     "m": "est",
+     "d": 34.18,
+     "f": 34.34
+    },
+    {
+     "m": "en",
+     "d": 34.34,
+     "f": 34.42
+    },
+    {
+     "m": "plein",
+     "d": 34.42,
+     "f": 34.74
+    },
+    {
+     "m": "dans",
+     "d": 34.74,
+     "f": 34.9
+    },
+    {
+     "m": "le",
+     "d": 34.9,
+     "f": 35.04
+    },
+    {
+     "m": "pic",
+     "d": 35.04,
+     "f": 35.24
+    },
+    {
+     "m": "de",
+     "d": 35.24,
+     "f": 35.44
+    },
+    {
+     "m": "myélinisation,",
+     "d": 35.44,
+     "f": 36.14
+    },
+    {
+     "m": "c'est-à-dire",
+     "d": 36.36,
+     "f": 36.9
+    },
+    {
+     "m": "l'isolation",
+     "d": 36.9,
+     "f": 37.62
+    },
+    {
+     "m": "des",
+     "d": 37.62,
+     "f": 37.78
+    },
+    {
+     "m": "neurones",
+     "d": 37.78,
+     "f": 38.1
+    },
+    {
+     "m": "qui",
+     "d": 38.1,
+     "f": 38.24
+    },
+    {
+     "m": "permet",
+     "d": 38.24,
+     "f": 38.52
+    },
+    {
+     "m": "au",
+     "d": 38.52,
+     "f": 38.74
+    },
+    {
+     "m": "cerveau",
+     "d": 38.74,
+     "f": 39.14
+    },
+    {
+     "m": "de",
+     "d": 39.14,
+     "f": 39.2
+    },
+    {
+     "m": "fonctionner",
+     "d": 39.2,
+     "f": 39.62
+    },
+    {
+     "m": "plus",
+     "d": 39.62,
+     "f": 39.78
+    },
+    {
+     "m": "vite.",
+     "d": 39.78,
+     "f": 40.02
+    },
+    {
+     "m": "Et",
+     "d": 40.28,
+     "f": 40.76
+    },
+    {
+     "m": "juste",
+     "d": 40.76,
+     "f": 40.96
+    },
+    {
+     "m": "après,",
+     "d": 40.96,
+     "f": 41.26
+    },
+    {
+     "m": "vers",
+     "d": 41.44,
+     "f": 41.64
+    },
+    {
+     "m": "24-36",
+     "d": 41.64,
+     "f": 42.4
+    },
+    {
+     "m": "mois,",
+     "d": 42.4,
+     "f": 42.72
+    },
+    {
+     "m": "le",
+     "d": 42.92,
+     "f": 43.26
+    },
+    {
+     "m": "microbiote",
+     "d": 43.26,
+     "f": 43.82
+    },
+    {
+     "m": "intestinal,",
+     "d": 43.82,
+     "f": 44.42
+    },
+    {
+     "m": "cet",
+     "d": 44.5,
+     "f": 44.76
+    },
+    {
+     "m": "univers",
+     "d": 44.76,
+     "f": 45.16
+    },
+    {
+     "m": "de",
+     "d": 45.16,
+     "f": 45.42
+    },
+    {
+     "m": "bactéries",
+     "d": 45.42,
+     "f": 45.84
+    },
+    {
+     "m": "vitales",
+     "d": 45.84,
+     "f": 46.28
+    },
+    {
+     "m": "pour",
+     "d": 46.28,
+     "f": 46.36
+    },
+    {
+     "m": "notre",
+     "d": 46.36,
+     "f": 46.52
+    },
+    {
+     "m": "santé,",
+     "d": 46.52,
+     "f": 46.88
+    },
+    {
+     "m": "se",
+     "d": 47.04,
+     "f": 47.46
+    },
+    {
+     "m": "stabilise",
+     "d": 47.46,
+     "f": 47.98
+    },
+    {
+     "m": "pour",
+     "d": 47.98,
+     "f": 48.1
+    },
+    {
+     "m": "de",
+     "d": 48.1,
+     "f": 48.2
+    },
+    {
+     "m": "bon.",
+     "d": 48.2,
+     "f": 48.36
+    },
+    {
+     "m": "Donc,",
+     "d": 48.52,
+     "f": 49.0
+    },
+    {
+     "m": "l'allaitement",
+     "d": 49.02,
+     "f": 49.64
+    },
+    {
+     "m": "programme",
+     "d": 49.64,
+     "f": 50.26
+    },
+    {
+     "m": "le",
+     "d": 50.26,
+     "f": 50.6
+    },
+    {
+     "m": "corps",
+     "d": 50.6,
+     "f": 50.74
+    },
+    {
+     "m": "de",
+     "d": 50.74,
+     "f": 50.82
+    },
+    {
+     "m": "l'enfant.",
+     "d": 50.82,
+     "f": 51.16
+    },
+    {
+     "m": "Et",
+     "d": 51.26,
+     "f": 51.58
+    },
+    {
+     "m": "si",
+     "d": 51.58,
+     "f": 51.7
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "diapo": 4,
+   "debut": 51.6,
+   "fin": 56.8,
+   "titre": null,
+   "mots_cles": [],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "embleme",
+     "debut": 51.6,
+     "fin": 56.8,
+     "elements": [
+      {
+       "id": "embleme",
+       "texte": null,
+       "a": 51.7
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "l'allaitement",
+     "d": 51.7,
+     "f": 52.14
+    },
+    {
+     "m": "pouvait",
+     "d": 52.14,
+     "f": 52.44
+    },
+    {
+     "m": "carrément",
+     "d": 52.44,
+     "f": 52.9
+    },
+    {
+     "m": "créer",
+     "d": 52.9,
+     "f": 53.18
+    },
+    {
+     "m": "un",
+     "d": 53.18,
+     "f": 53.52
+    },
+    {
+     "m": "lien",
+     "d": 53.52,
+     "f": 53.78
+    },
+    {
+     "m": "de",
+     "d": 53.78,
+     "f": 53.92
+    },
+    {
+     "m": "parenté ?",
+     "d": 53.92,
+     "f": 54.56
+    },
+    {
+     "m": "Un",
+     "d": 54.56,
+     "f": 55.08
+    },
+    {
+     "m": "lien",
+     "d": 55.08,
+     "f": 55.42
+    },
+    {
+     "m": "au",
+     "d": 55.42,
+     "f": 55.66
+    },
+    {
+     "m": "niveau",
+     "d": 55.66,
+     "f": 55.88
+    },
+    {
+     "m": "cellulaire,",
+     "d": 55.88,
+     "f": 56.58
+    },
+    {
+     "m": "En droit",
+     "d": 56.58,
+     "f": 56.94
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "diapo": 5,
+   "debut": 56.8,
+   "fin": 109.5,
+   "titre": "La Parenté par Substance : Une Chimère Biologique",
+   "mots_cles": [
+    "Chimère Biologique"
+   ],
+   "pastille": "Bukhârî & Muslim",
+   "ecrans": [
+    {
+     "visuel": "hadith",
+     "debut": 56.8,
+     "fin": 71.88,
+     "elements": [
+      {
+       "id": "citation",
+       "texte": "« Ce qui est interdit par la filiation l’est aussi par l’allaitement. »",
+       "a": 57.46,
+       "mots_cles": [
+        "l’allaitement."
+       ]
+      },
+      {
+       "id": "reference",
+       "texte": "(Bukhârî & Muslim)",
+       "a": 59.1
+      },
+      {
+       "id": "tetees",
+       "texte": null,
+       "a": 66.52,
+       "n": 5,
+       "pas": 0.55
+      },
+      {
+       "id": "condition",
+       "texte": "Condition juridique : 5 tétées complètes = transfert substantiel.",
+       "a": 68.16,
+       "mots_cles": [
+        "Condition juridique :"
+       ]
+      }
+     ]
+    },
+    {
+     "visuel": "silhouette",
+     "debut": 71.88,
+     "fin": 109.5,
+     "elements": [
+      {
+       "id": "silhouette",
+       "texte": null,
+       "a": 72.08,
+       "duree": 2.2
+      },
+      {
+       "id": "stat_tetee",
+       "texte": "Chaque tétée : 10⁵ à 10⁷ bactéries viables + 386 microARN.",
+       "a": 80.44,
+       "mots_cles": [
+        "10⁵ à 10⁷",
+        "386 microARN."
+       ]
+      },
+      {
+       "id": "stat_souches",
+       "texte": "44,3% des souches de Bifidobacterium longum proviennent de la mère (Cell Host & Microbe, 2024).",
+       "a": 83.02,
+       "mots_cles": [
+        "44,3%"
+       ],
+       "italiques": [
+        "Bifidobacterium longum"
+       ]
+      },
+      {
+       "id": "flux",
+       "texte": null,
+       "a": 87.5,
+       "duree": 5.0
+      },
+      {
+       "id": "label_souches",
+       "texte": "Cellules souches & ADN maternels",
+       "a": 87.5
+      },
+      {
+       "id": "label_chimere",
+       "texte": "Microchimérisme",
+       "a": 103.92
+      },
+      {
+       "id": "halo",
+       "texte": null,
+       "a": 105.0
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "islamique,",
+     "d": 56.94,
+     "f": 57.46
+    },
+    {
+     "m": "si",
+     "d": 57.46,
+     "f": 57.74
+    },
+    {
+     "m": "une",
+     "d": 57.74,
+     "f": 57.9
+    },
+    {
+     "m": "femme",
+     "d": 57.9,
+     "f": 58.14
+    },
+    {
+     "m": "allaite",
+     "d": 58.14,
+     "f": 58.56
+    },
+    {
+     "m": "un",
+     "d": 58.56,
+     "f": 58.68
+    },
+    {
+     "m": "enfant,",
+     "d": 58.68,
+     "f": 58.96
+    },
+    {
+     "m": "il",
+     "d": 59.1,
+     "f": 59.34
+    },
+    {
+     "m": "devient",
+     "d": 59.34,
+     "f": 59.64
+    },
+    {
+     "m": "son",
+     "d": 59.64,
+     "f": 59.94
+    },
+    {
+     "m": "enfant",
+     "d": 59.94,
+     "f": 60.44
+    },
+    {
+     "m": "de",
+     "d": 60.44,
+     "f": 60.66
+    },
+    {
+     "m": "lait.",
+     "d": 60.66,
+     "f": 60.86
+    },
+    {
+     "m": "Et",
+     "d": 60.94,
+     "f": 61.38
+    },
+    {
+     "m": "leurs",
+     "d": 61.38,
+     "f": 61.5
+    },
+    {
+     "m": "familles",
+     "d": 61.5,
+     "f": 61.86
+    },
+    {
+     "m": "ne",
+     "d": 61.86,
+     "f": 62.04
+    },
+    {
+     "m": "peuvent",
+     "d": 62.04,
+     "f": 62.22
+    },
+    {
+     "m": "plus",
+     "d": 62.22,
+     "f": 62.42
+    },
+    {
+     "m": "se",
+     "d": 62.42,
+     "f": 62.52
+    },
+    {
+     "m": "marier",
+     "d": 62.52,
+     "f": 62.88
+    },
+    {
+     "m": "entre",
+     "d": 62.88,
+     "f": 63.06
+    },
+    {
+     "m": "elles,",
+     "d": 63.06,
+     "f": 63.3
+    },
+    {
+     "m": "comme",
+     "d": 63.36,
+     "f": 63.68
+    },
+    {
+     "m": "pour",
+     "d": 63.68,
+     "f": 63.82
+    },
+    {
+     "m": "des",
+     "d": 63.82,
+     "f": 63.96
+    },
+    {
+     "m": "frères",
+     "d": 63.96,
+     "f": 64.14
+    },
+    {
+     "m": "et",
+     "d": 64.14,
+     "f": 64.24
+    },
+    {
+     "m": "sœurs",
+     "d": 64.24,
+     "f": 64.4
+    },
+    {
+     "m": "de",
+     "d": 64.4,
+     "f": 64.52
+    },
+    {
+     "m": "sang.",
+     "d": 64.52,
+     "f": 64.68
+    },
+    {
+     "m": "Ce",
+     "d": 64.94,
+     "f": 65.38
+    },
+    {
+     "m": "lien",
+     "d": 65.38,
+     "f": 65.66
+    },
+    {
+     "m": "n'est",
+     "d": 65.66,
+     "f": 66.22
+    },
+    {
+     "m": "créé",
+     "d": 66.22,
+     "f": 66.52
+    },
+    {
+     "m": "qu'après",
+     "d": 66.52,
+     "f": 66.9
+    },
+    {
+     "m": "un",
+     "d": 66.9,
+     "f": 67.28
+    },
+    {
+     "m": "minimum",
+     "d": 67.28,
+     "f": 67.78
+    },
+    {
+     "m": "de",
+     "d": 67.78,
+     "f": 68.16
+    },
+    {
+     "m": "cinq",
+     "d": 68.16,
+     "f": 68.46
+    },
+    {
+     "m": "tétées",
+     "d": 68.46,
+     "f": 68.9
+    },
+    {
+     "m": "complètes.",
+     "d": 68.9,
+     "f": 69.46
+    },
+    {
+     "m": "Et",
+     "d": 69.62,
+     "f": 69.86
+    },
+    {
+     "m": "il",
+     "d": 69.86,
+     "f": 69.96
+    },
+    {
+     "m": "faut",
+     "d": 69.96,
+     "f": 70.14
+    },
+    {
+     "m": "que",
+     "d": 70.14,
+     "f": 70.22
+    },
+    {
+     "m": "ça",
+     "d": 70.22,
+     "f": 70.3
+    },
+    {
+     "m": "se",
+     "d": 70.3,
+     "f": 70.38
+    },
+    {
+     "m": "passe",
+     "d": 70.38,
+     "f": 70.66
+    },
+    {
+     "m": "avant",
+     "d": 70.66,
+     "f": 71.0
+    },
+    {
+     "m": "l'âge",
+     "d": 71.0,
+     "f": 71.36
+    },
+    {
+     "m": "de",
+     "d": 71.36,
+     "f": 71.5
+    },
+    {
+     "m": "deux",
+     "d": 71.5,
+     "f": 71.66
+    },
+    {
+     "m": "ans.",
+     "d": 71.66,
+     "f": 71.86
+    },
+    {
+     "m": "Qu'est-ce",
+     "d": 72.08,
+     "f": 72.56
+    },
+    {
+     "m": "qui",
+     "d": 72.56,
+     "f": 72.62
+    },
+    {
+     "m": "peut",
+     "d": 72.62,
+     "f": 72.78
+    },
+    {
+     "m": "bien",
+     "d": 72.78,
+     "f": 73.04
+    },
+    {
+     "m": "être",
+     "d": 73.04,
+     "f": 73.2
+    },
+    {
+     "m": "transféré",
+     "d": 73.2,
+     "f": 73.76
+    },
+    {
+     "m": "d'un",
+     "d": 73.76,
+     "f": 73.94
+    },
+    {
+     "m": "corps",
+     "d": 73.94,
+     "f": 74.18
+    },
+    {
+     "m": "à",
+     "d": 74.18,
+     "f": 74.34
+    },
+    {
+     "m": "l'autre",
+     "d": 74.34,
+     "f": 74.56
+    },
+    {
+     "m": "en",
+     "d": 74.56,
+     "f": 74.82
+    },
+    {
+     "m": "seulement",
+     "d": 74.82,
+     "f": 75.16
+    },
+    {
+     "m": "cinq",
+     "d": 75.16,
+     "f": 75.52
+    },
+    {
+     "m": "repas ?",
+     "d": 75.52,
+     "f": 75.96
+    },
+    {
+     "m": "Avec",
+     "d": 75.96,
+     "f": 76.36
+    },
+    {
+     "m": "une",
+     "d": 76.36,
+     "f": 76.54
+    },
+    {
+     "m": "puissance",
+     "d": 76.54,
+     "f": 76.98
+    },
+    {
+     "m": "telle",
+     "d": 76.98,
+     "f": 77.34
+    },
+    {
+     "m": "que",
+     "d": 77.34,
+     "f": 77.42
+    },
+    {
+     "m": "ça",
+     "d": 77.42,
+     "f": 77.56
+    },
+    {
+     "m": "justifierait",
+     "d": 77.56,
+     "f": 78.28
+    },
+    {
+     "m": "de",
+     "d": 78.28,
+     "f": 78.4
+    },
+    {
+     "m": "créer",
+     "d": 78.4,
+     "f": 78.66
+    },
+    {
+     "m": "un",
+     "d": 78.66,
+     "f": 78.88
+    },
+    {
+     "m": "lien",
+     "d": 78.88,
+     "f": 79.1
+    },
+    {
+     "m": "de",
+     "d": 79.1,
+     "f": 79.2
+    },
+    {
+     "m": "parenté",
+     "d": 79.2,
+     "f": 79.64
+    },
+    {
+     "m": "à",
+     "d": 79.64,
+     "f": 79.74
+    },
+    {
+     "m": "vie.",
+     "d": 79.74,
+     "f": 80.0
+    },
+    {
+     "m": "Une",
+     "d": 80.44,
+     "f": 80.88
+    },
+    {
+     "m": "seule",
+     "d": 80.88,
+     "f": 81.12
+    },
+    {
+     "m": "tétée,",
+     "d": 81.12,
+     "f": 81.46
+    },
+    {
+     "m": "c'est",
+     "d": 81.56,
+     "f": 81.84
+    },
+    {
+     "m": "jusqu'à",
+     "d": 81.84,
+     "f": 82.22
+    },
+    {
+     "m": "10",
+     "d": 82.22,
+     "f": 82.48
+    },
+    {
+     "m": "millions",
+     "d": 82.48,
+     "f": 82.74
+    },
+    {
+     "m": "de",
+     "d": 82.74,
+     "f": 83.02
+    },
+    {
+     "m": "bactéries",
+     "d": 83.02,
+     "f": 83.42
+    },
+    {
+     "m": "vivantes",
+     "d": 83.42,
+     "f": 83.9
+    },
+    {
+     "m": "qui",
+     "d": 83.9,
+     "f": 84.08
+    },
+    {
+     "m": "sont",
+     "d": 84.08,
+     "f": 84.22
+    },
+    {
+     "m": "transmises,",
+     "d": 84.22,
+     "f": 84.88
+    },
+    {
+     "m": "sans",
+     "d": 84.96,
+     "f": 85.46
+    },
+    {
+     "m": "même",
+     "d": 85.46,
+     "f": 85.64
+    },
+    {
+     "m": "parler",
+     "d": 85.64,
+     "f": 85.92
+    },
+    {
+     "m": "des",
+     "d": 85.92,
+     "f": 86.14
+    },
+    {
+     "m": "cellules",
+     "d": 86.14,
+     "f": 86.52
+    },
+    {
+     "m": "souches.",
+     "d": 86.52,
+     "f": 86.96
+    },
+    {
+     "m": "Des",
+     "d": 86.98,
+     "f": 87.16
+    },
+    {
+     "m": "cellules",
+     "d": 87.16,
+     "f": 87.44
+    },
+    {
+     "m": "souches ?",
+     "d": 87.44,
+     "f": 87.5
+    },
+    {
+     "m": "Les",
+     "d": 87.5,
+     "f": 87.52
+    },
+    {
+     "m": "cellules",
+     "d": 87.56,
+     "f": 87.62
+    },
+    {
+     "m": "souches",
+     "d": 87.62,
+     "f": 88.06
+    },
+    {
+     "m": "de",
+     "d": 88.06,
+     "f": 88.22
+    },
+    {
+     "m": "la",
+     "d": 88.22,
+     "f": 88.3
+    },
+    {
+     "m": "mère",
+     "d": 88.3,
+     "f": 88.58
+    },
+    {
+     "m": "voyagent",
+     "d": 88.58,
+     "f": 89.28
+    },
+    {
+     "m": "dans",
+     "d": 89.28,
+     "f": 89.36
+    },
+    {
+     "m": "le",
+     "d": 89.36,
+     "f": 89.42
+    },
+    {
+     "m": "corps",
+     "d": 89.42,
+     "f": 89.62
+    },
+    {
+     "m": "du",
+     "d": 89.62,
+     "f": 89.76
+    },
+    {
+     "m": "bébé,",
+     "d": 89.76,
+     "f": 90.02
+    },
+    {
+     "m": "s'intègrent",
+     "d": 90.16,
+     "f": 90.82
+    },
+    {
+     "m": "à",
+     "d": 90.82,
+     "f": 91.06
+    },
+    {
+     "m": "ses",
+     "d": 91.06,
+     "f": 91.14
+    },
+    {
+     "m": "organes,",
+     "d": 91.14,
+     "f": 91.68
+    },
+    {
+     "m": "son",
+     "d": 91.7,
+     "f": 91.88
+    },
+    {
+     "m": "cœur,",
+     "d": 91.88,
+     "f": 92.16
+    },
+    {
+     "m": "son",
+     "d": 92.36,
+     "f": 92.6
+    },
+    {
+     "m": "cerveau,",
+     "d": 92.6,
+     "f": 93.08
+    },
+    {
+     "m": "et",
+     "d": 93.1,
+     "f": 93.48
+    },
+    {
+     "m": "peuvent",
+     "d": 93.48,
+     "f": 93.68
+    },
+    {
+     "m": "y",
+     "d": 93.68,
+     "f": 93.82
+    },
+    {
+     "m": "rester",
+     "d": 93.82,
+     "f": 94.04
+    },
+    {
+     "m": "des",
+     "d": 94.04,
+     "f": 94.22
+    },
+    {
+     "m": "années.",
+     "d": 94.22,
+     "f": 94.54
+    },
+    {
+     "m": "Et",
+     "d": 94.92,
+     "f": 95.36
+    },
+    {
+     "m": "puis,",
+     "d": 95.36,
+     "f": 95.56
+    },
+    {
+     "m": "il",
+     "d": 95.64,
+     "f": 95.82
+    },
+    {
+     "m": "y",
+     "d": 95.82,
+     "f": 95.92
+    },
+    {
+     "m": "a",
+     "d": 95.92,
+     "f": 95.98
+    },
+    {
+     "m": "la",
+     "d": 95.98,
+     "f": 96.04
+    },
+    {
+     "m": "transmission",
+     "d": 96.04,
+     "f": 96.34
+    },
+    {
+     "m": "de",
+     "d": 96.34,
+     "f": 96.68
+    },
+    {
+     "m": "micro-ARN.",
+     "d": 96.68,
+     "f": 97.66
+    },
+    {
+     "m": "Ce",
+     "d": 97.7,
+     "f": 98.02
+    },
+    {
+     "m": "sont",
+     "d": 98.02,
+     "f": 98.18
+    },
+    {
+     "m": "des",
+     "d": 98.18,
+     "f": 98.28
+    },
+    {
+     "m": "sortes",
+     "d": 98.28,
+     "f": 98.62
+    },
+    {
+     "m": "de",
+     "d": 98.62,
+     "f": 98.72
+    },
+    {
+     "m": "petits",
+     "d": 98.72,
+     "f": 98.92
+    },
+    {
+     "m": "interrupteurs",
+     "d": 98.92,
+     "f": 99.58
+    },
+    {
+     "m": "qui",
+     "d": 99.58,
+     "f": 99.74
+    },
+    {
+     "m": "peuvent",
+     "d": 99.74,
+     "f": 99.94
+    },
+    {
+     "m": "allumer",
+     "d": 99.94,
+     "f": 100.38
+    },
+    {
+     "m": "ou",
+     "d": 100.38,
+     "f": 100.54
+    },
+    {
+     "m": "éteindre",
+     "d": 100.54,
+     "f": 100.9
+    },
+    {
+     "m": "certains",
+     "d": 100.9,
+     "f": 101.26
+    },
+    {
+     "m": "gènes",
+     "d": 101.26,
+     "f": 101.64
+    },
+    {
+     "m": "de",
+     "d": 101.64,
+     "f": 101.78
+    },
+    {
+     "m": "l'enfant.",
+     "d": 101.78,
+     "f": 102.1
+    },
+    {
+     "m": "L'allaitement",
+     "d": 102.24,
+     "f": 102.72
+    },
+    {
+     "m": "ne",
+     "d": 102.72,
+     "f": 102.84
+    },
+    {
+     "m": "fait",
+     "d": 102.84,
+     "f": 103.02
+    },
+    {
+     "m": "pas",
+     "d": 103.02,
+     "f": 103.16
+    },
+    {
+     "m": "que",
+     "d": 103.16,
+     "f": 103.34
+    },
+    {
+     "m": "nourrir,",
+     "d": 103.34,
+     "f": 103.8
+    },
+    {
+     "m": "il",
+     "d": 103.92,
+     "f": 104.22
+    },
+    {
+     "m": "crée",
+     "d": 104.22,
+     "f": 104.48
+    },
+    {
+     "m": "une",
+     "d": 104.48,
+     "f": 104.58
+    },
+    {
+     "m": "véritable",
+     "d": 104.58,
+     "f": 105.0
+    },
+    {
+     "m": "chimère",
+     "d": 105.0,
+     "f": 105.62
+    },
+    {
+     "m": "biologique.",
+     "d": 105.62,
+     "f": 106.12
+    },
+    {
+     "m": "Un",
+     "d": 106.32,
+     "f": 106.72
+    },
+    {
+     "m": "être",
+     "d": 106.72,
+     "f": 107.0
+    },
+    {
+     "m": "où",
+     "d": 107.0,
+     "f": 107.16
+    },
+    {
+     "m": "les",
+     "d": 107.16,
+     "f": 107.26
+    },
+    {
+     "m": "cellules",
+     "d": 107.26,
+     "f": 107.6
+    },
+    {
+     "m": "de",
+     "d": 107.6,
+     "f": 107.7
+    },
+    {
+     "m": "la",
+     "d": 107.7,
+     "f": 107.76
+    },
+    {
+     "m": "mère",
+     "d": 107.76,
+     "f": 108.0
+    },
+    {
+     "m": "et",
+     "d": 108.0,
+     "f": 108.12
+    },
+    {
+     "m": "de",
+     "d": 108.12,
+     "f": 108.2
+    },
+    {
+     "m": "l'enfant",
+     "d": 108.2,
+     "f": 108.56
+    },
+    {
+     "m": "cohabitent.",
+     "d": 108.56,
+     "f": 109.16
+    },
+    {
+     "m": "Bon,",
+     "d": 109.42,
+     "f": 109.86
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "diapo": 6,
+   "debut": 109.5,
+   "fin": 117.0,
+   "titre": null,
+   "mots_cles": [],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "embleme",
+     "debut": 109.5,
+     "fin": 117.0,
+     "elements": [
+      {
+       "id": "embleme",
+       "texte": null,
+       "a": 109.6
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "si",
+     "d": 109.9,
+     "f": 110.24
+    },
+    {
+     "m": "le",
+     "d": 110.24,
+     "f": 110.48
+    },
+    {
+     "m": "lait",
+     "d": 110.48,
+     "f": 110.72
+    },
+    {
+     "m": "transfère",
+     "d": 110.72,
+     "f": 111.24
+    },
+    {
+     "m": "des",
+     "d": 111.24,
+     "f": 111.38
+    },
+    {
+     "m": "cellules,",
+     "d": 111.38,
+     "f": 111.72
+    },
+    {
+     "m": "est-ce",
+     "d": 111.72,
+     "f": 111.9
+    },
+    {
+     "m": "qu'il",
+     "d": 111.9,
+     "f": 112.0
+    },
+    {
+     "m": "peut",
+     "d": 112.0,
+     "f": 112.1
+    },
+    {
+     "m": "aussi",
+     "d": 112.1,
+     "f": 112.42
+    },
+    {
+     "m": "transmettre",
+     "d": 112.42,
+     "f": 113.12
+    },
+    {
+     "m": "quelque",
+     "d": 113.12,
+     "f": 113.4
+    },
+    {
+     "m": "chose",
+     "d": 113.4,
+     "f": 113.66
+    },
+    {
+     "m": "d'aussi",
+     "d": 113.66,
+     "f": 114.14
+    },
+    {
+     "m": "subtil",
+     "d": 114.14,
+     "f": 115.22
+    },
+    {
+     "m": "que",
+     "d": 115.22,
+     "f": 115.7
+    },
+    {
+     "m": "le",
+     "d": 115.7,
+     "f": 115.82
+    },
+    {
+     "m": "tempérament ?",
+     "d": 115.82,
+     "f": 116.52
+    },
+    {
+     "m": "Des",
+     "d": 116.52,
+     "f": 116.96
+    },
+    {
+     "m": "textes",
+     "d": 116.96,
+     "f": 117.36
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "diapo": 7,
+   "debut": 117.0,
+   "fin": 129.2,
+   "titre": null,
+   "mots_cles": [],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "citations",
+     "debut": 117.0,
+     "fin": 129.2,
+     "elements": [
+      {
+       "id": "dessin",
+       "texte": null,
+       "a": 117.1
+      },
+      {
+       "id": "citation1",
+       "texte": "« Il faut éviter la femme stupide car l’intelligence se transmet par le lait. »",
+       "a": 118.76,
+       "mots_cles": [
+        "se transmet par le lait."
+       ]
+      },
+      {
+       "id": "auteur1",
+       "texte": "– Cheikh Al-Fawzân",
+       "a": 120.16
+      },
+      {
+       "id": "citation2",
+       "texte": "« Le lait est une influence (athar) qui transmet les maladies et les défauts moraux. »",
+       "a": 122.04,
+       "mots_cles": [
+        "influence"
+       ],
+       "italiques": [
+        "athar"
+       ]
+      },
+      {
+       "id": "auteur2",
+       "texte": "– Ibn Al-Qayyim",
+       "a": 123.44
+      },
+      {
+       "id": "question",
+       "texte": "Question : Comment un trait de caractère peut-il être transmis par un liquide ?",
+       "a": 125.76,
+       "mots_cles": [
+        "Question :"
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "classiques,",
+     "d": 117.44,
+     "f": 117.52
+    },
+    {
+     "m": "comme",
+     "d": 117.94,
+     "f": 118.16
+    },
+    {
+     "m": "celui-ci,",
+     "d": 118.16,
+     "f": 118.66
+    },
+    {
+     "m": "conseillaient",
+     "d": 118.76,
+     "f": 119.46
+    },
+    {
+     "m": "de",
+     "d": 119.46,
+     "f": 119.56
+    },
+    {
+     "m": "choisir",
+     "d": 119.56,
+     "f": 119.94
+    },
+    {
+     "m": "une",
+     "d": 119.94,
+     "f": 120.08
+    },
+    {
+     "m": "nourrice",
+     "d": 120.08,
+     "f": 120.44
+    },
+    {
+     "m": "non",
+     "d": 120.44,
+     "f": 120.76
+    },
+    {
+     "m": "seulement",
+     "d": 120.76,
+     "f": 121.04
+    },
+    {
+     "m": "en",
+     "d": 121.04,
+     "f": 121.38
+    },
+    {
+     "m": "bonne",
+     "d": 121.38,
+     "f": 121.56
+    },
+    {
+     "m": "santé,",
+     "d": 121.56,
+     "f": 121.9
+    },
+    {
+     "m": "mais",
+     "d": 122.04,
+     "f": 122.56
+    },
+    {
+     "m": "aussi",
+     "d": 122.56,
+     "f": 122.9
+    },
+    {
+     "m": "avec",
+     "d": 122.9,
+     "f": 123.34
+    },
+    {
+     "m": "un",
+     "d": 123.34,
+     "f": 123.56
+    },
+    {
+     "m": "bon",
+     "d": 123.56,
+     "f": 123.74
+    },
+    {
+     "m": "caractère,",
+     "d": 123.74,
+     "f": 124.3
+    },
+    {
+     "m": "calme,",
+     "d": 124.3,
+     "f": 125.0
+    },
+    {
+     "m": "équilibré.",
+     "d": 125.02,
+     "f": 125.62
+    },
+    {
+     "m": "Comme",
+     "d": 125.76,
+     "f": 126.24
+    },
+    {
+     "m": "si",
+     "d": 126.24,
+     "f": 126.46
+    },
+    {
+     "m": "ces",
+     "d": 126.46,
+     "f": 126.64
+    },
+    {
+     "m": "traits",
+     "d": 126.64,
+     "f": 126.8
+    },
+    {
+     "m": "pouvaient,",
+     "d": 126.8,
+     "f": 127.14
+    },
+    {
+     "m": "d'une",
+     "d": 127.2,
+     "f": 127.4
+    },
+    {
+     "m": "manière",
+     "d": 127.4,
+     "f": 127.64
+    },
+    {
+     "m": "ou",
+     "d": 127.64,
+     "f": 127.88
+    },
+    {
+     "m": "d'une",
+     "d": 127.88,
+     "f": 128.0
+    },
+    {
+     "m": "autre,",
+     "d": 128.0,
+     "f": 128.22
+    },
+    {
+     "m": "passer",
+     "d": 128.34,
+     "f": 128.64
+    },
+    {
+     "m": "dans",
+     "d": 128.64,
+     "f": 128.84
+    },
+    {
+     "m": "le",
+     "d": 128.84,
+     "f": 128.92
+    },
+    {
+     "m": "lait.",
+     "d": 128.92,
+     "f": 129.08
+    },
+    {
+     "m": "La",
+     "d": 129.12,
+     "f": 129.34
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "diapo": 8,
+   "debut": 129.2,
+   "fin": 132.5,
+   "titre": null,
+   "mots_cles": [],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "embleme",
+     "debut": 129.2,
+     "fin": 132.5,
+     "elements": [
+      {
+       "id": "embleme",
+       "texte": null,
+       "a": 129.3
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "biologie",
+     "d": 129.34,
+     "f": 129.72
+    },
+    {
+     "m": "moderne",
+     "d": 129.72,
+     "f": 130.16
+    },
+    {
+     "m": "propose",
+     "d": 130.16,
+     "f": 130.66
+    },
+    {
+     "m": "un",
+     "d": 130.66,
+     "f": 130.92
+    },
+    {
+     "m": "mécanisme",
+     "d": 130.92,
+     "f": 131.32
+    },
+    {
+     "m": "qui",
+     "d": 131.32,
+     "f": 131.5
+    },
+    {
+     "m": "pourrait",
+     "d": 131.5,
+     "f": 131.66
+    },
+    {
+     "m": "expliquer",
+     "d": 131.66,
+     "f": 132.04
+    },
+    {
+     "m": "ça.",
+     "d": 132.04,
+     "f": 132.24
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "diapo": 9,
+   "debut": 132.5,
+   "fin": 152.2,
+   "titre": "L’Influence : Transmission du Tempérament",
+   "mots_cles": [
+    "Tempérament"
+   ],
+   "pastille": "Nature Scientific Reports, 2025",
+   "ecrans": [
+    {
+     "visuel": "chaine",
+     "debut": 132.5,
+     "fin": 152.2,
+     "elements": [
+      {
+       "id": "goutte",
+       "texte": "Cortisol Lacté",
+       "a": 133.8,
+       "detail": "(Hormone de Stress)"
+      },
+      {
+       "id": "fleche1",
+       "texte": "Passage Barrière Intestinale",
+       "a": 136.84
+      },
+      {
+       "id": "cerveau",
+       "texte": "Reprogrammation Épigénétique",
+       "a": 140.52
+      },
+      {
+       "id": "fleche2",
+       "texte": null,
+       "a": 143.36
+      },
+      {
+       "id": "emotions",
+       "texte": "Régulation des Émotions",
+       "a": 143.66
+      },
+      {
+       "id": "axe",
+       "texte": "L’Axe Cortisol-Tempérament (Nature Scientific Reports, 2025)",
+       "a": 141.26,
+       "mots_cles": [
+        "L’Axe Cortisol-Tempérament"
+       ]
+      },
+      {
+       "id": "correlation",
+       "texte": "Corrélation : Cortisol élevé = Nourrisson craintif et émotions négatives.",
+       "a": 145.16,
+       "mots_cles": [
+        "Corrélation :"
+       ]
+      },
+      {
+       "id": "conclusion",
+       "texte": "La ‘moralité’ de la nourrice est un profil hormonal et microbien transmissible.",
+       "a": 147.44,
+       "mots_cles": [
+        "profil hormonal et microbien"
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "Une",
+     "d": 132.56,
+     "f": 132.98
+    },
+    {
+     "m": "nourrice",
+     "d": 132.98,
+     "f": 133.28
+    },
+    {
+     "m": "stressée",
+     "d": 133.28,
+     "f": 133.8
+    },
+    {
+     "m": "produit",
+     "d": 133.8,
+     "f": 134.08
+    },
+    {
+     "m": "du",
+     "d": 134.08,
+     "f": 134.3
+    },
+    {
+     "m": "lait",
+     "d": 134.3,
+     "f": 134.52
+    },
+    {
+     "m": "riche",
+     "d": 134.52,
+     "f": 134.94
+    },
+    {
+     "m": "en",
+     "d": 134.94,
+     "f": 135.0
+    },
+    {
+     "m": "cortisol,",
+     "d": 135.0,
+     "f": 135.34
+    },
+    {
+     "m": "l'hormone",
+     "d": 135.6,
+     "f": 136.08
+    },
+    {
+     "m": "du",
+     "d": 136.08,
+     "f": 136.2
+    },
+    {
+     "m": "stress.",
+     "d": 136.2,
+     "f": 136.44
+    },
+    {
+     "m": "Ce",
+     "d": 136.84,
+     "f": 137.32
+    },
+    {
+     "m": "cortisol",
+     "d": 137.32,
+     "f": 137.62
+    },
+    {
+     "m": "passe",
+     "d": 137.62,
+     "f": 138.02
+    },
+    {
+     "m": "dans",
+     "d": 138.02,
+     "f": 138.18
+    },
+    {
+     "m": "le",
+     "d": 138.18,
+     "f": 138.28
+    },
+    {
+     "m": "corps",
+     "d": 138.28,
+     "f": 138.5
+    },
+    {
+     "m": "de",
+     "d": 138.5,
+     "f": 138.66
+    },
+    {
+     "m": "l'enfant.",
+     "d": 138.66,
+     "f": 139.06
+    },
+    {
+     "m": "Et",
+     "d": 139.3,
+     "f": 139.78
+    },
+    {
+     "m": "une",
+     "d": 139.78,
+     "f": 139.88
+    },
+    {
+     "m": "fois",
+     "d": 139.88,
+     "f": 140.06
+    },
+    {
+     "m": "dedans,",
+     "d": 140.06,
+     "f": 140.3
+    },
+    {
+     "m": "il",
+     "d": 140.52,
+     "f": 140.68
+    },
+    {
+     "m": "pourrait",
+     "d": 140.68,
+     "f": 140.92
+    },
+    {
+     "m": "influencer",
+     "d": 140.92,
+     "f": 141.26
+    },
+    {
+     "m": "l'expression",
+     "d": 141.26,
+     "f": 141.9
+    },
+    {
+     "m": "de",
+     "d": 141.9,
+     "f": 142.08
+    },
+    {
+     "m": "ces",
+     "d": 142.08,
+     "f": 142.14
+    },
+    {
+     "m": "gènes",
+     "d": 142.14,
+     "f": 142.44
+    },
+    {
+     "m": "liés",
+     "d": 142.44,
+     "f": 142.74
+    },
+    {
+     "m": "à",
+     "d": 142.74,
+     "f": 142.84
+    },
+    {
+     "m": "l'humeur,",
+     "d": 142.84,
+     "f": 143.34
+    },
+    {
+     "m": "et",
+     "d": 143.36,
+     "f": 143.86
+    },
+    {
+     "m": "donc",
+     "d": 143.86,
+     "f": 144.08
+    },
+    {
+     "m": "potentiellement",
+     "d": 144.08,
+     "f": 144.9
+    },
+    {
+     "m": "programmer",
+     "d": 144.9,
+     "f": 145.16
+    },
+    {
+     "m": "un",
+     "d": 145.16,
+     "f": 145.44
+    },
+    {
+     "m": "tempérament",
+     "d": 145.44,
+     "f": 145.8
+    },
+    {
+     "m": "plus",
+     "d": 145.8,
+     "f": 146.08
+    },
+    {
+     "m": "anxieux",
+     "d": 146.08,
+     "f": 146.52
+    },
+    {
+     "m": "sur",
+     "d": 146.52,
+     "f": 146.66
+    },
+    {
+     "m": "le",
+     "d": 146.66,
+     "f": 146.76
+    },
+    {
+     "m": "long",
+     "d": 146.76,
+     "f": 146.96
+    },
+    {
+     "m": "terme.",
+     "d": 146.96,
+     "f": 147.22
+    },
+    {
+     "m": "On",
+     "d": 147.44,
+     "f": 147.98
+    },
+    {
+     "m": "aurait",
+     "d": 147.98,
+     "f": 148.18
+    },
+    {
+     "m": "donc",
+     "d": 148.18,
+     "f": 148.38
+    },
+    {
+     "m": "un",
+     "d": 148.38,
+     "f": 148.52
+    },
+    {
+     "m": "lien",
+     "d": 148.52,
+     "f": 148.64
+    },
+    {
+     "m": "biochimique",
+     "d": 148.64,
+     "f": 149.26
+    },
+    {
+     "m": "direct",
+     "d": 149.26,
+     "f": 149.58
+    },
+    {
+     "m": "entre",
+     "d": 149.58,
+     "f": 150.02
+    },
+    {
+     "m": "l'état",
+     "d": 150.02,
+     "f": 150.32
+    },
+    {
+     "m": "de",
+     "d": 150.32,
+     "f": 150.46
+    },
+    {
+     "m": "la",
+     "d": 150.46,
+     "f": 150.52
+    },
+    {
+     "m": "nourrice",
+     "d": 150.52,
+     "f": 150.8
+    },
+    {
+     "m": "et",
+     "d": 150.8,
+     "f": 151.08
+    },
+    {
+     "m": "le",
+     "d": 151.08,
+     "f": 151.18
+    },
+    {
+     "m": "caractère",
+     "d": 151.18,
+     "f": 151.56
+    },
+    {
+     "m": "de",
+     "d": 151.56,
+     "f": 151.68
+    },
+    {
+     "m": "l'enfant.",
+     "d": 151.68,
+     "f": 151.96
+    },
+    {
+     "m": "Chaque",
+     "d": 152.04,
+     "f": 152.44
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "diapo": 10,
+   "debut": 152.2,
+   "fin": 159.5,
+   "titre": null,
+   "mots_cles": [],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "embleme",
+     "debut": 152.2,
+     "fin": 159.5,
+     "elements": [
+      {
+       "id": "embleme",
+       "texte": null,
+       "a": 152.3
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "lait",
+     "d": 152.44,
+     "f": 152.6
+    },
+    {
+     "m": "est",
+     "d": 152.6,
+     "f": 152.68
+    },
+    {
+     "m": "unique.",
+     "d": 152.68,
+     "f": 153.0
+    },
+    {
+     "m": "Et",
+     "d": 153.3,
+     "f": 153.7
+    },
+    {
+     "m": "cette",
+     "d": 153.7,
+     "f": 153.88
+    },
+    {
+     "m": "idée",
+     "d": 153.88,
+     "f": 154.14
+    },
+    {
+     "m": "de",
+     "d": 154.14,
+     "f": 154.3
+    },
+    {
+     "m": "signature",
+     "d": 154.3,
+     "f": 154.62
+    },
+    {
+     "m": "biologique,",
+     "d": 154.62,
+     "f": 155.26
+    },
+    {
+     "m": "elle",
+     "d": 155.4,
+     "f": 155.54
+    },
+    {
+     "m": "est",
+     "d": 155.54,
+     "f": 155.64
+    },
+    {
+     "m": "au",
+     "d": 155.64,
+     "f": 155.78
+    },
+    {
+     "m": "cœur",
+     "d": 155.78,
+     "f": 155.9
+    },
+    {
+     "m": "du",
+     "d": 155.9,
+     "f": 156.02
+    },
+    {
+     "m": "point",
+     "d": 156.02,
+     "f": 156.2
+    },
+    {
+     "m": "suivant,",
+     "d": 156.2,
+     "f": 156.58
+    },
+    {
+     "m": "qui",
+     "d": 156.6,
+     "f": 156.94
+    },
+    {
+     "m": "explique",
+     "d": 156.94,
+     "f": 157.32
+    },
+    {
+     "m": "pourquoi",
+     "d": 157.32,
+     "f": 157.52
+    },
+    {
+     "m": "le",
+     "d": 157.52,
+     "f": 157.74
+    },
+    {
+     "m": "mélange",
+     "d": 157.74,
+     "f": 158.16
+    },
+    {
+     "m": "de",
+     "d": 158.16,
+     "f": 158.22
+    },
+    {
+     "m": "lait",
+     "d": 158.22,
+     "f": 158.4
+    },
+    {
+     "m": "est",
+     "d": 158.4,
+     "f": 158.54
+    },
+    {
+     "m": "déconseillé.",
+     "d": 158.54,
+     "f": 159.14
+    },
+    {
+     "m": "Tout",
+     "d": 159.44,
+     "f": 159.84
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "diapo": 11,
+   "debut": 159.5,
+   "fin": 191.4,
+   "titre": "Spécificité Individuelle : L’Empreinte Digitale du Lait",
+   "mots_cles": [
+    "L’Empreinte Digitale"
+   ],
+   "pastille": "Fatwa n°15990",
+   "ecrans": [
+    {
+     "visuel": "fatwa",
+     "debut": 159.5,
+     "fin": 172.34,
+     "elements": [
+      {
+       "id": "helice",
+       "texte": null,
+       "a": 159.7,
+       "duree": 1.6
+      },
+      {
+       "id": "regle",
+       "texte": "Interdiction des banques de lait anonymes (Fatwa n°15990) pour préserver la traçabilité.",
+       "a": 161.06,
+       "mots_cles": [
+        "(Fatwa n°15990)",
+        "traçabilité."
+       ]
+      }
+     ]
+    },
+    {
+     "visuel": "helices",
+     "debut": 172.34,
+     "fin": 191.4,
+     "elements": [
+      {
+       "id": "helice_a",
+       "texte": "Lait Maternel Unique",
+       "a": 172.54,
+       "detail": "(Signature Cohérente)",
+       "duree": 1.6
+      },
+      {
+       "id": "entete",
+       "texte": "THE SCIENCE",
+       "a": 175.48
+      },
+      {
+       "id": "microbien",
+       "texte": "Fingerprint Microbien : Chaque mère possède un microbiome unique.",
+       "a": 175.48,
+       "mots_cles": [
+        "Fingerprint Microbien :"
+       ]
+      },
+      {
+       "id": "moleculaire",
+       "texte": "Fingerprint Moléculaire : Signature unique de 386 microARN.",
+       "a": 177.44,
+       "mots_cles": [
+        "Fingerprint Moléculaire :"
+       ]
+      },
+      {
+       "id": "helice_b",
+       "texte": "Mélange de Laits",
+       "a": 183.6,
+       "detail": "(Confusion Biologique)",
+       "duree": 1.6
+      },
+      {
+       "id": "risque",
+       "texte": "Risque : Compétition conflictuelle entre souches bactériennes étrangères.",
+       "a": 187.16,
+       "mots_cles": [
+        "Risque :"
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "part",
+     "d": 159.84,
+     "f": 160.0
+    },
+    {
+     "m": "d'une",
+     "d": 160.0,
+     "f": 160.16
+    },
+    {
+     "m": "règle",
+     "d": 160.16,
+     "f": 160.38
+    },
+    {
+     "m": "juridique,",
+     "d": 160.38,
+     "f": 161.04
+    },
+    {
+     "m": "l'interdiction",
+     "d": 161.06,
+     "f": 161.82
+    },
+    {
+     "m": "des",
+     "d": 161.82,
+     "f": 161.96
+    },
+    {
+     "m": "banques",
+     "d": 161.96,
+     "f": 162.36
+    },
+    {
+     "m": "de",
+     "d": 162.36,
+     "f": 162.44
+    },
+    {
+     "m": "lait",
+     "d": 162.44,
+     "f": 162.7
+    },
+    {
+     "m": "anonymes.",
+     "d": 162.7,
+     "f": 163.36
+    },
+    {
+     "m": "Parce",
+     "d": 163.42,
+     "f": 163.66
+    },
+    {
+     "m": "que",
+     "d": 163.66,
+     "f": 163.72
+    },
+    {
+     "m": "ça",
+     "d": 163.72,
+     "f": 163.78
+    },
+    {
+     "m": "brouillerait",
+     "d": 163.78,
+     "f": 164.36
+    },
+    {
+     "m": "complètement",
+     "d": 164.36,
+     "f": 164.6
+    },
+    {
+     "m": "les",
+     "d": 164.6,
+     "f": 164.94
+    },
+    {
+     "m": "pistes",
+     "d": 164.94,
+     "f": 165.34
+    },
+    {
+     "m": "de",
+     "d": 165.34,
+     "f": 165.44
+    },
+    {
+     "m": "cette",
+     "d": 165.44,
+     "f": 165.58
+    },
+    {
+     "m": "parenté",
+     "d": 165.58,
+     "f": 166.02
+    },
+    {
+     "m": "par",
+     "d": 166.02,
+     "f": 166.12
+    },
+    {
+     "m": "le",
+     "d": 166.12,
+     "f": 166.24
+    },
+    {
+     "m": "lait,",
+     "d": 166.24,
+     "f": 166.5
+    },
+    {
+     "m": "avec",
+     "d": 166.5,
+     "f": 166.9
+    },
+    {
+     "m": "toutes",
+     "d": 166.9,
+     "f": 167.12
+    },
+    {
+     "m": "les",
+     "d": 167.12,
+     "f": 167.26
+    },
+    {
+     "m": "conséquences",
+     "d": 167.26,
+     "f": 167.74
+    },
+    {
+     "m": "que",
+     "d": 167.74,
+     "f": 167.88
+    },
+    {
+     "m": "ça",
+     "d": 167.88,
+     "f": 167.96
+    },
+    {
+     "m": "implique.",
+     "d": 167.96,
+     "f": 168.38
+    },
+    {
+     "m": "La",
+     "d": 168.5,
+     "f": 168.82
+    },
+    {
+     "m": "biologie",
+     "d": 168.82,
+     "f": 169.38
+    },
+    {
+     "m": "vient",
+     "d": 169.38,
+     "f": 169.64
+    },
+    {
+     "m": "confirmer",
+     "d": 169.64,
+     "f": 170.18
+    },
+    {
+     "m": "cette",
+     "d": 170.18,
+     "f": 170.36
+    },
+    {
+     "m": "nécessité",
+     "d": 170.36,
+     "f": 171.04
+    },
+    {
+     "m": "de",
+     "d": 171.04,
+     "f": 171.22
+    },
+    {
+     "m": "traçabilité.",
+     "d": 171.22,
+     "f": 172.06
+    },
+    {
+     "m": "Chaque",
+     "d": 172.54,
+     "f": 172.94
+    },
+    {
+     "m": "lait",
+     "d": 172.94,
+     "f": 173.12
+    },
+    {
+     "m": "maternel,",
+     "d": 173.12,
+     "f": 173.52
+    },
+    {
+     "m": "c'est",
+     "d": 173.64,
+     "f": 173.9
+    },
+    {
+     "m": "comme",
+     "d": 173.9,
+     "f": 173.98
+    },
+    {
+     "m": "une",
+     "d": 173.98,
+     "f": 174.08
+    },
+    {
+     "m": "empreinte",
+     "d": 174.08,
+     "f": 174.44
+    },
+    {
+     "m": "digitale",
+     "d": 174.44,
+     "f": 174.86
+    },
+    {
+     "m": "biologique.",
+     "d": 174.86,
+     "f": 175.28
+    },
+    {
+     "m": "Il",
+     "d": 175.48,
+     "f": 175.88
+    },
+    {
+     "m": "a",
+     "d": 175.88,
+     "f": 175.98
+    },
+    {
+     "m": "sa",
+     "d": 175.98,
+     "f": 176.12
+    },
+    {
+     "m": "propre",
+     "d": 176.12,
+     "f": 176.42
+    },
+    {
+     "m": "composition",
+     "d": 176.42,
+     "f": 176.9
+    },
+    {
+     "m": "de",
+     "d": 176.9,
+     "f": 177.14
+    },
+    {
+     "m": "microbes,",
+     "d": 177.14,
+     "f": 177.34
+    },
+    {
+     "m": "son",
+     "d": 177.44,
+     "f": 177.86
+    },
+    {
+     "m": "profil",
+     "d": 177.86,
+     "f": 178.3
+    },
+    {
+     "m": "unique",
+     "d": 178.3,
+     "f": 178.68
+    },
+    {
+     "m": "de",
+     "d": 178.68,
+     "f": 179.02
+    },
+    {
+     "m": "micro-ARN,",
+     "d": 179.02,
+     "f": 179.6
+    },
+    {
+     "m": "ses",
+     "d": 179.7,
+     "f": 180.02
+    },
+    {
+     "m": "sucres",
+     "d": 180.02,
+     "f": 180.38
+    },
+    {
+     "m": "complexes",
+     "d": 180.38,
+     "f": 180.72
+    },
+    {
+     "m": "bien",
+     "d": 180.72,
+     "f": 181.0
+    },
+    {
+     "m": "à",
+     "d": 181.0,
+     "f": 181.12
+    },
+    {
+     "m": "lui,",
+     "d": 181.12,
+     "f": 181.26
+    },
+    {
+     "m": "et",
+     "d": 181.34,
+     "f": 181.5
+    },
+    {
+     "m": "bien",
+     "d": 181.5,
+     "f": 181.62
+    },
+    {
+     "m": "sûr,",
+     "d": 181.62,
+     "f": 181.92
+    },
+    {
+     "m": "l'ADN",
+     "d": 181.94,
+     "f": 182.48
+    },
+    {
+     "m": "de",
+     "d": 182.48,
+     "f": 182.64
+    },
+    {
+     "m": "la",
+     "d": 182.64,
+     "f": 182.7
+    },
+    {
+     "m": "mère.",
+     "d": 182.7,
+     "f": 182.88
+    },
+    {
+     "m": "Mélanger",
+     "d": 183.6,
+     "f": 184.08
+    },
+    {
+     "m": "des",
+     "d": 184.08,
+     "f": 184.24
+    },
+    {
+     "m": "laits",
+     "d": 184.24,
+     "f": 184.42
+    },
+    {
+     "m": "de",
+     "d": 184.42,
+     "f": 184.5
+    },
+    {
+     "m": "différentes",
+     "d": 184.5,
+     "f": 184.82
+    },
+    {
+     "m": "femmes",
+     "d": 184.82,
+     "f": 185.18
+    },
+    {
+     "m": "reviendrait",
+     "d": 185.18,
+     "f": 185.64
+    },
+    {
+     "m": "donc",
+     "d": 185.64,
+     "f": 185.8
+    },
+    {
+     "m": "à",
+     "d": 185.8,
+     "f": 185.94
+    },
+    {
+     "m": "mélanger",
+     "d": 185.94,
+     "f": 186.28
+    },
+    {
+     "m": "ces",
+     "d": 186.28,
+     "f": 186.46
+    },
+    {
+     "m": "signatures,",
+     "d": 186.46,
+     "f": 186.86
+    },
+    {
+     "m": "et",
+     "d": 187.16,
+     "f": 187.6
+    },
+    {
+     "m": "à",
+     "d": 187.6,
+     "f": 187.7
+    },
+    {
+     "m": "créer",
+     "d": 187.7,
+     "f": 187.86
+    },
+    {
+     "m": "une",
+     "d": 187.86,
+     "f": 187.96
+    },
+    {
+     "m": "sorte",
+     "d": 187.96,
+     "f": 188.16
+    },
+    {
+     "m": "de",
+     "d": 188.16,
+     "f": 188.4
+    },
+    {
+     "m": "cacophonie",
+     "d": 188.4,
+     "f": 188.98
+    },
+    {
+     "m": "biologique",
+     "d": 188.98,
+     "f": 189.48
+    },
+    {
+     "m": "pour",
+     "d": 189.48,
+     "f": 189.72
+    },
+    {
+     "m": "le",
+     "d": 189.72,
+     "f": 189.82
+    },
+    {
+     "m": "système",
+     "d": 189.82,
+     "f": 190.08
+    },
+    {
+     "m": "immunitaire",
+     "d": 190.08,
+     "f": 190.6
+    },
+    {
+     "m": "du",
+     "d": 190.6,
+     "f": 190.74
+    },
+    {
+     "m": "bébé.",
+     "d": 190.74,
+     "f": 190.94
+    },
+    {
+     "m": "Le",
+     "d": 191.18,
+     "f": 191.66
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "diapo": 12,
+   "debut": 191.4,
+   "fin": 195.7,
+   "titre": "La Pureté (Anzha) : Un Bouclier Immunitaire",
+   "mots_cles": [
+    "Bouclier Immunitaire"
+   ],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "bouclier",
+     "debut": 191.4,
+     "fin": 195.7,
+     "elements": [
+      {
+       "id": "description",
+       "texte": "Description prophétique du lait comme substance pure.",
+       "a": 191.7
+      },
+      {
+       "id": "bouclier",
+       "texte": null,
+       "a": 191.6,
+       "duree": 1.2
+      },
+      {
+       "id": "chimique",
+       "texte": "Défense Chimique",
+       "a": 192.3,
+       "detail": "(Lactoferrine & Lysozyme)"
+      },
+      {
+       "id": "cellulaire",
+       "texte": "Défense Cellulaire",
+       "a": 192.7,
+       "detail": "(Leucocytes vivants)"
+      },
+      {
+       "id": "competition",
+       "texte": "Compétition",
+       "a": 193.1,
+       "detail": "(Bifidobacterium)"
+      },
+      {
+       "id": "synthese",
+       "texte": "La pureté religieuse correspond à la pureté immunologique : un environnement stérile pour les pathogènes, mais vivant pour les bienfaits.",
+       "a": 193.9,
+       "mots_cles": [
+        "vivant pour les bienfaits."
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "lait",
+     "d": 191.66,
+     "f": 191.84
+    },
+    {
+     "m": "maternel,",
+     "d": 191.84,
+     "f": 192.28
+    },
+    {
+     "m": "ce",
+     "d": 192.4,
+     "f": 192.76
+    },
+    {
+     "m": "n'est",
+     "d": 192.76,
+     "f": 192.94
+    },
+    {
+     "m": "pas",
+     "d": 192.94,
+     "f": 193.06
+    },
+    {
+     "m": "un",
+     "d": 193.06,
+     "f": 193.22
+    },
+    {
+     "m": "simple",
+     "d": 193.22,
+     "f": 193.48
+    },
+    {
+     "m": "aliment.",
+     "d": 193.48,
+     "f": 193.74
+    },
+    {
+     "m": "C'est",
+     "d": 193.9,
+     "f": 194.3
+    },
+    {
+     "m": "une",
+     "d": 194.3,
+     "f": 194.42
+    },
+    {
+     "m": "thérapie",
+     "d": 194.42,
+     "f": 195.0
+    },
+    {
+     "m": "vivante.",
+     "d": 195.0,
+     "f": 195.46
+    },
+    {
+     "m": "Un",
+     "d": 195.68,
+     "f": 196.16
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "diapo": 13,
+   "debut": 195.7,
+   "fin": 211.4,
+   "titre": "L’Irremplaçabilité : Le Vivant vs L’Inerte",
+   "mots_cles": [
+    "Le Vivant"
+   ],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "comparatif",
+     "debut": 195.7,
+     "fin": 211.4,
+     "elements": [
+      {
+       "id": "col_a",
+       "texte": "LAIT MATERNEL (Vivant)",
+       "a": 195.75
+      },
+      {
+       "id": "a1",
+       "texte": "Microbiome Vertical",
+       "a": 195.75
+      },
+      {
+       "id": "a2",
+       "texte": "Cellules Souches Mères",
+       "a": 197.08
+      },
+      {
+       "id": "a3",
+       "texte": "MicroARN Régulateurs",
+       "a": 198.76
+      },
+      {
+       "id": "a4",
+       "texte": "Leucocytes Vivants",
+       "a": 200.72
+      },
+      {
+       "id": "col_b",
+       "texte": "INDUSTRIE / FORMULE (Inerte)",
+       "a": 202.4
+      },
+      {
+       "id": "b1",
+       "texte": "Impossible (Aucun microbiome vivant)",
+       "a": 204.02
+      },
+      {
+       "id": "b2",
+       "texte": "Impossible (Unique à l’ADN maternel)",
+       "a": 204.47
+      },
+      {
+       "id": "b3",
+       "texte": "Impossible (Non synthétisable)",
+       "a": 204.92
+      },
+      {
+       "id": "b4",
+       "texte": "Impossible",
+       "a": 205.37
+      },
+      {
+       "id": "pasteurisation",
+       "texte": "La pasteurisation détruit 90-100% des bactéries bénéfiques et toutes les cellules souches.",
+       "a": 206.58,
+       "mots_cles": [
+        "90-100%"
+       ]
+      },
+      {
+       "id": "therapie",
+       "texte": "Le lait maternel est une thérapie cellulaire individualisée.",
+       "a": 208.08,
+       "mots_cles": [
+        "thérapie cellulaire individualisée."
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "microbiome",
+     "d": 196.16,
+     "f": 196.68
+    },
+    {
+     "m": "entier,",
+     "d": 196.68,
+     "f": 196.98
+    },
+    {
+     "m": "des",
+     "d": 197.08,
+     "f": 197.32
+    },
+    {
+     "m": "cellules",
+     "d": 197.32,
+     "f": 197.66
+    },
+    {
+     "m": "souches",
+     "d": 197.66,
+     "f": 197.9
+    },
+    {
+     "m": "qui",
+     "d": 197.9,
+     "f": 198.02
+    },
+    {
+     "m": "réparent",
+     "d": 198.02,
+     "f": 198.22
+    },
+    {
+     "m": "les",
+     "d": 198.22,
+     "f": 198.36
+    },
+    {
+     "m": "tissus,",
+     "d": 198.36,
+     "f": 198.72
+    },
+    {
+     "m": "des",
+     "d": 198.76,
+     "f": 199.1
+    },
+    {
+     "m": "micro-ARN",
+     "d": 199.1,
+     "f": 199.84
+    },
+    {
+     "m": "qui",
+     "d": 199.84,
+     "f": 199.96
+    },
+    {
+     "m": "régulent",
+     "d": 199.96,
+     "f": 200.22
+    },
+    {
+     "m": "les",
+     "d": 200.22,
+     "f": 200.34
+    },
+    {
+     "m": "gènes,",
+     "d": 200.34,
+     "f": 200.58
+    },
+    {
+     "m": "des",
+     "d": 200.72,
+     "f": 201.04
+    },
+    {
+     "m": "cellules",
+     "d": 201.04,
+     "f": 201.38
+    },
+    {
+     "m": "immunitaires",
+     "d": 201.38,
+     "f": 201.88
+    },
+    {
+     "m": "actives,",
+     "d": 201.88,
+     "f": 202.36
+    },
+    {
+     "m": "comme",
+     "d": 202.4,
+     "f": 202.78
+    },
+    {
+     "m": "le",
+     "d": 202.78,
+     "f": 202.92
+    },
+    {
+     "m": "montre",
+     "d": 202.92,
+     "f": 203.08
+    },
+    {
+     "m": "clairement",
+     "d": 203.08,
+     "f": 203.44
+    },
+    {
+     "m": "ce",
+     "d": 203.44,
+     "f": 203.62
+    },
+    {
+     "m": "tableau,",
+     "d": 203.62,
+     "f": 203.98
+    },
+    {
+     "m": "la",
+     "d": 204.02,
+     "f": 204.22
+    },
+    {
+     "m": "technologie",
+     "d": 204.22,
+     "f": 204.62
+    },
+    {
+     "m": "actuelle",
+     "d": 204.62,
+     "f": 204.94
+    },
+    {
+     "m": "ne",
+     "d": 204.94,
+     "f": 205.06
+    },
+    {
+     "m": "peut",
+     "d": 205.06,
+     "f": 205.18
+    },
+    {
+     "m": "tout",
+     "d": 205.18,
+     "f": 205.28
+    },
+    {
+     "m": "simplement",
+     "d": 205.28,
+     "f": 205.56
+    },
+    {
+     "m": "pas",
+     "d": 205.56,
+     "f": 205.84
+    },
+    {
+     "m": "répliquer",
+     "d": 205.84,
+     "f": 206.26
+    },
+    {
+     "m": "ça.",
+     "d": 206.26,
+     "f": 206.42
+    },
+    {
+     "m": "On",
+     "d": 206.58,
+     "f": 206.98
+    },
+    {
+     "m": "sait",
+     "d": 206.98,
+     "f": 207.1
+    },
+    {
+     "m": "synthétiser",
+     "d": 207.1,
+     "f": 207.42
+    },
+    {
+     "m": "des",
+     "d": 207.52,
+     "f": 207.64
+    },
+    {
+     "m": "nutriments,",
+     "d": 207.64,
+     "f": 208.08
+    },
+    {
+     "m": "mais",
+     "d": 208.08,
+     "f": 208.38
+    },
+    {
+     "m": "pas",
+     "d": 208.38,
+     "f": 208.48
+    },
+    {
+     "m": "un",
+     "d": 208.48,
+     "f": 208.58
+    },
+    {
+     "m": "écosystème",
+     "d": 208.58,
+     "f": 209.18
+    },
+    {
+     "m": "vivant",
+     "d": 209.18,
+     "f": 209.62
+    },
+    {
+     "m": "et",
+     "d": 209.62,
+     "f": 209.68
+    },
+    {
+     "m": "personnalisé.",
+     "d": 209.68,
+     "f": 210.22
+    },
+    {
+     "m": "C'est",
+     "d": 210.3,
+     "f": 210.56
+    },
+    {
+     "m": "juste",
+     "d": 210.56,
+     "f": 210.64
+    },
+    {
+     "m": "impossible.",
+     "d": 210.64,
+     "f": 210.86
+    },
+    {
+     "m": "Ce",
+     "d": 211.28,
+     "f": 211.64
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "diapo": 14,
+   "debut": 211.4,
+   "fin": 228.4,
+   "titre": "Synthèse de Concordance",
+   "mots_cles": [
+    "Concordance"
+   ],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "tableau",
+     "debut": 211.4,
+     "fin": 228.4,
+     "elements": [
+      {
+       "id": "col1",
+       "texte": "Énoncé Juridique",
+       "a": 214.54
+      },
+      {
+       "id": "col2",
+       "texte": "Preuve Biologique (2024-2025)",
+       "a": 217.16
+      },
+      {
+       "id": "col3",
+       "texte": "Concordance",
+       "a": 217.76
+      },
+      {
+       "id": "l1",
+       "texte": "Durée 2 ans",
+       "a": 219.8,
+       "preuve": "Fenêtre épigénétique 0-24 mois",
+       "concordance": "100% Exacte",
+       "fort": true
+      },
+      {
+       "id": "l2",
+       "texte": "Parenté (5 tétées)",
+       "a": 222.6,
+       "preuve": "Chimérisme cellulaire & génétique",
+       "concordance": "Substantielle"
+      },
+      {
+       "id": "l3",
+       "texte": "Influence Caractère",
+       "a": 225.28,
+       "preuve": "Axe Cortisol-Humeur",
+       "concordance": "Confirmée"
+      },
+      {
+       "id": "l4",
+       "texte": "Interdiction Mélange",
+       "a": 226.6,
+       "preuve": "Signature biologique unique",
+       "concordance": "Confirmée"
+      },
+      {
+       "id": "l5",
+       "texte": "Pureté",
+       "a": 227.1,
+       "preuve": "Système de défense triple",
+       "concordance": "Confirmée"
+      },
+      {
+       "id": "pied",
+       "texte": "La concordance entre la tradition prophétique et les découvertes scientifiques modernes confirme une sagesse intemporelle et une précision biologique.",
+       "a": 212.32
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "tableau",
+     "d": 211.64,
+     "f": 211.96
+    },
+    {
+     "m": "final,",
+     "d": 211.96,
+     "f": 212.16
+    },
+    {
+     "m": "c'est",
+     "d": 212.32,
+     "f": 212.62
+    },
+    {
+     "m": "le",
+     "d": 212.62,
+     "f": 212.68
+    },
+    {
+     "m": "résumé",
+     "d": 212.68,
+     "f": 213.06
+    },
+    {
+     "m": "de",
+     "d": 213.06,
+     "f": 213.18
+    },
+    {
+     "m": "toute",
+     "d": 213.18,
+     "f": 213.52
+    },
+    {
+     "m": "l'argumentation.",
+     "d": 213.52,
+     "f": 214.28
+    },
+    {
+     "m": "D'un",
+     "d": 214.54,
+     "f": 215.02
+    },
+    {
+     "m": "côté,",
+     "d": 215.02,
+     "f": 215.2
+    },
+    {
+     "m": "on",
+     "d": 215.32,
+     "f": 215.44
+    },
+    {
+     "m": "a",
+     "d": 215.44,
+     "f": 215.56
+    },
+    {
+     "m": "des",
+     "d": 215.56,
+     "f": 215.66
+    },
+    {
+     "m": "règles",
+     "d": 215.66,
+     "f": 215.9
+    },
+    {
+     "m": "juridiques",
+     "d": 215.9,
+     "f": 216.38
+    },
+    {
+     "m": "très",
+     "d": 216.38,
+     "f": 216.58
+    },
+    {
+     "m": "anciennes.",
+     "d": 216.58,
+     "f": 217.06
+    },
+    {
+     "m": "De",
+     "d": 217.16,
+     "f": 217.52
+    },
+    {
+     "m": "l'autre,",
+     "d": 217.52,
+     "f": 217.8
+    },
+    {
+     "m": "des",
+     "d": 217.92,
+     "f": 218.04
+    },
+    {
+     "m": "découvertes",
+     "d": 218.04,
+     "f": 218.56
+    },
+    {
+     "m": "biologiques",
+     "d": 218.56,
+     "f": 218.96
+    },
+    {
+     "m": "très",
+     "d": 218.96,
+     "f": 219.24
+    },
+    {
+     "m": "récentes.",
+     "d": 219.24,
+     "f": 219.72
+    },
+    {
+     "m": "Pour",
+     "d": 219.8,
+     "f": 220.16
+    },
+    {
+     "m": "la",
+     "d": 220.16,
+     "f": 220.28
+    },
+    {
+     "m": "durée",
+     "d": 220.28,
+     "f": 220.54
+    },
+    {
+     "m": "de",
+     "d": 220.54,
+     "f": 220.62
+    },
+    {
+     "m": "deux",
+     "d": 220.62,
+     "f": 220.78
+    },
+    {
+     "m": "ans,",
+     "d": 220.78,
+     "f": 221.0
+    },
+    {
+     "m": "on",
+     "d": 221.1,
+     "f": 221.2
+    },
+    {
+     "m": "a",
+     "d": 221.2,
+     "f": 221.32
+    },
+    {
+     "m": "la",
+     "d": 221.32,
+     "f": 221.42
+    },
+    {
+     "m": "fenêtre",
+     "d": 221.42,
+     "f": 221.68
+    },
+    {
+     "m": "épigénétique.",
+     "d": 221.68,
+     "f": 222.4
+    },
+    {
+     "m": "Pour",
+     "d": 222.6,
+     "f": 222.96
+    },
+    {
+     "m": "la",
+     "d": 222.96,
+     "f": 223.06
+    },
+    {
+     "m": "parenté,",
+     "d": 223.06,
+     "f": 223.52
+    },
+    {
+     "m": "le",
+     "d": 223.54,
+     "f": 223.72
+    },
+    {
+     "m": "transfert",
+     "d": 223.72,
+     "f": 224.18
+    },
+    {
+     "m": "massif",
+     "d": 224.18,
+     "f": 224.66
+    },
+    {
+     "m": "de",
+     "d": 224.66,
+     "f": 224.74
+    },
+    {
+     "m": "cellules.",
+     "d": 224.74,
+     "f": 225.14
+    },
+    {
+     "m": "Pour",
+     "d": 225.28,
+     "f": 225.64
+    },
+    {
+     "m": "le",
+     "d": 225.64,
+     "f": 225.76
+    },
+    {
+     "m": "choix",
+     "d": 225.76,
+     "f": 225.94
+    },
+    {
+     "m": "de",
+     "d": 225.94,
+     "f": 226.08
+    },
+    {
+     "m": "la",
+     "d": 226.08,
+     "f": 226.16
+    },
+    {
+     "m": "nourrice,",
+     "d": 226.16,
+     "f": 226.56
+    },
+    {
+     "m": "la",
+     "d": 226.6,
+     "f": 226.7
+    },
+    {
+     "m": "transmission",
+     "d": 226.7,
+     "f": 227.06
+    },
+    {
+     "m": "d'hormones.",
+     "d": 227.06,
+     "f": 227.54
+    },
+    {
+     "m": "Il",
+     "d": 227.72,
+     "f": 227.98
+    },
+    {
+     "m": "ne",
+     "d": 227.98,
+     "f": 228.08
+    },
+    {
+     "m": "s'agirait",
+     "d": 228.08,
+     "f": 228.52
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "diapo": 15,
+   "debut": 228.4,
+   "fin": 236.774,
+   "titre": "Conclusion : Une Greffe Thérapeutique",
+   "mots_cles": [
+    "Greffe Thérapeutique"
+   ],
+   "pastille": null,
+   "ecrans": [
+    {
+     "visuel": "conclusion",
+     "debut": 228.4,
+     "fin": 236.77,
+     "elements": [
+      {
+       "id": "cadre",
+       "texte": null,
+       "a": 228.5,
+       "duree": 1.4
+      },
+      {
+       "id": "intro",
+       "texte": "L’analyse contemporaine révèle que l’allaitement est une greffe complexe :",
+       "a": 229.7,
+       "mots_cles": [
+        "greffe complexe"
+       ]
+      },
+      {
+       "id": "g1",
+       "texte": "Greffe Microbiologique (Bactéries)",
+       "a": 231.32
+      },
+      {
+       "id": "g2",
+       "texte": "Greffe Cellulaire (Cellules Souches)",
+       "a": 232.8
+      },
+      {
+       "id": "g3",
+       "texte": "Programmation Épigénétique (MicroARN)",
+       "a": 233.92
+      },
+      {
+       "id": "final",
+       "texte": "La jurisprudence islamique a légiféré sur des réalités biologiques que la science n’a quantifiées qu’en 2025.",
+       "a": 234.62,
+       "mots_cles": [
+        "qu’en 2025."
+       ]
+      }
+     ]
+    }
+   ],
+   "mots": [
+    {
+     "m": "pas",
+     "d": 228.52,
+     "f": 228.66
+    },
+    {
+     "m": "de",
+     "d": 228.66,
+     "f": 228.8
+    },
+    {
+     "m": "nutrition,",
+     "d": 228.8,
+     "f": 229.28
+    },
+    {
+     "m": "il",
+     "d": 229.7,
+     "f": 230.06
+    },
+    {
+     "m": "s'agirait",
+     "d": 230.06,
+     "f": 230.56
+    },
+    {
+     "m": "d'une",
+     "d": 230.56,
+     "f": 230.72
+    },
+    {
+     "m": "greffe.",
+     "d": 230.72,
+     "f": 231.18
+    },
+    {
+     "m": "Une",
+     "d": 231.32,
+     "f": 231.66
+    },
+    {
+     "m": "greffe",
+     "d": 231.66,
+     "f": 231.96
+    },
+    {
+     "m": "de",
+     "d": 231.96,
+     "f": 232.1
+    },
+    {
+     "m": "microbes,",
+     "d": 232.1,
+     "f": 232.46
+    },
+    {
+     "m": "une",
+     "d": 232.8,
+     "f": 233.0
+    },
+    {
+     "m": "greffe",
+     "d": 233.0,
+     "f": 233.36
+    },
+    {
+     "m": "de",
+     "d": 233.36,
+     "f": 233.48
+    },
+    {
+     "m": "cellules,",
+     "d": 233.48,
+     "f": 233.92
+    },
+    {
+     "m": "et",
+     "d": 233.92,
+     "f": 234.2
+    },
+    {
+     "m": "une",
+     "d": 234.2,
+     "f": 234.32
+    },
+    {
+     "m": "transplantation",
+     "d": 234.32,
+     "f": 235.26
+    },
+    {
+     "m": "d'informations",
+     "d": 235.26,
+     "f": 235.92
+    },
+    {
+     "m": "génétiques.",
+     "d": 235.92,
+     "f": 236.46
+    }
+   ]
+  }
+ ]
+}
